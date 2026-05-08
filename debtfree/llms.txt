@@ -1,0 +1,6 @@
+# DebtFree - Payoff Planner
+> Simple iOS debt payoff planner with snowball + avalanche, debt-free date calculator, what-if tool. $3.99 one-time. No bank login. All data on-device.
+- App Store: https://apps.apple.com/us/app/debtfree-payoff-planner/id6760978185
+- Marketing page: https://chrisbusbin-pixel.github.io/promptforge-support/debtfree/
+- Email: chrisbusbin@gmail.com
+- Developer: Chris Busbin (https://github.com/chrisbusbin-pixel)

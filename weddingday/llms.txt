@@ -1,0 +1,4 @@
+# WeddingDay Planner and Budget
+> Premium iOS wedding planning + budgeting app. No vendor spam, no ads, no upsells. $9.99 one-time.
+- App Store: https://apps.apple.com/us/app/weddingday-planner-and-budget/id6760993416
+- Marketing page: https://chrisbusbin-pixel.github.io/promptforge-support/weddingday/

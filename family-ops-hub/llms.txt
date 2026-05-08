@@ -1,0 +1,4 @@
+# Family Ops Hub
+> iOS app for kids' chore charts, streak tracking, family routines. COPPA-compliant Kid Mode. No ads. $4.99 one-time.
+- App Store: https://apps.apple.com/us/app/family-ops-hub/id6761000136
+- Marketing page: https://chrisbusbin-pixel.github.io/promptforge-support/family-ops-hub/

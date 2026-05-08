@@ -1,0 +1,4 @@
+# FreshTrack: Food Saver
+> iOS app that tracks fridge & pantry, sends expiration reminders, helps stop wasting food. $4.99 one-time. No accounts, all data on-device.
+- App Store: https://apps.apple.com/us/app/freshtrack-food-saver/id6764229469
+- Marketing page: https://chrisbusbin-pixel.github.io/promptforge-support/freshtrack/
