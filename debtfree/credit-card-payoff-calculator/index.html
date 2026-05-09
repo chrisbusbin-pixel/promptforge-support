@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Credit Card Payoff Calculator — Free, No Sign-Up (DebtFree iOS App)</title>
+<meta name="description" content="A free, in-browser credit card payoff calculator. Enter your balance, APR, and monthly payment — get your payoff date, total interest, and a simple plan to pay it off faster.">
+<meta name="keywords" content="credit card payoff calculator, credit card payoff app, how long to pay off credit card, credit card debt calculator, debt payoff app, snowball avalanche calculator">
+<link rel="canonical" href="https://chrisbusbin-pixel.github.io/promptforge-support/debtfree/credit-card-payoff-calculator/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Credit Card Payoff Calculator — Free, No Sign-Up">
+<meta property="og:description" content="See your payoff date and total interest in seconds. Then check out DebtFree, the iOS app that plans payoff for multiple debts.">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Credit Card Payoff Calculator","applicationCategory":"FinanceApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"Chris Busbin"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How long does it take to pay off a credit card?","acceptedAnswer":{"@type":"Answer","text":"It depends on your balance, APR, and monthly payment. As a rough rule: paying only the minimum on a typical 20%+ APR card can take 15-25 years and more than double the original balance in interest. Doubling the minimum payment typically cuts the payoff time by 60-70%."}},{"@type":"Question","name":"Should I pay off the highest interest or smallest balance first?","acceptedAnswer":{"@type":"Answer","text":"Highest APR first (the avalanche method) is mathematically optimal — you pay less total interest. Smallest balance first (the snowball method) is psychologically easier — quick wins build momentum. Both work; pick the one you'll stick with."}},{"@type":"Question","name":"Is this calculator accurate?","acceptedAnswer":{"@type":"Answer","text":"The calculator uses the standard amortization formula assuming a fixed monthly payment, fixed APR, and no new charges. Real credit cards may have variable APRs, fees, or different interest calculation methods (daily vs monthly compounding). Use this as a planning estimate, not a precise number."}},{"@type":"Question","name":"What does DebtFree the app do that this calculator doesn't?","acceptedAnswer":{"@type":"Answer","text":"DebtFree handles multiple debts simultaneously (credit cards, loans, medical, etc.), implements both snowball and avalanche payoff orders, has a what-if tool to test different extra payments, and shows your overall debt-free date in real time. The web calculator above is for one debt at a time."}}]}
+</script>
+<style>*{box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:760px;margin:0 auto;padding:24px;color:#1c1c1e;line-height:1.65}h1{color:#2d6a4f;font-size:30px;margin-bottom:8px}.dek{font-size:18px;color:#444;margin-bottom:20px}.cta{display:inline-block;background:#2d6a4f;color:#fff;padding:12px 22px;border-radius:10px;text-decoration:none;font-weight:600;margin:6px 4px}.cta.secondary{background:#f2f2f7;color:#1c1c1e}h2{color:#333;margin-top:32px;border-bottom:1px solid #e5e5ea;padding-bottom:6px}h3{color:#1b4332;margin-top:22px}.calc{background:#e8f5e9;padding:20px;border-radius:12px;margin:16px 0;border-left:4px solid #2d6a4f}.calc label{display:block;margin:10px 0 4px;font-weight:600;color:#1b4332}.calc input{width:100%;padding:10px;font-size:16px;border:1px solid #b7d8c0;border-radius:6px;background:#fff}.calc-out{margin-top:14px;padding:12px;background:#fff;border-radius:8px;font-size:15px}.calc-out strong{color:#1b4332;font-size:18px}.faq{background:#f2f2f7;padding:14px;border-radius:10px;margin:10px 0}.faq strong{display:block;margin-bottom:5px}a{color:#2d6a4f}.crumb{color:#666;font-size:14px;margin-bottom:12px}.crumb a{color:#2d6a4f}.footer{margin-top:36px;padding-top:18px;border-top:1px solid #e5e5ea;color:#8e8e93;font-size:13px}.compare{width:100%;border-collapse:collapse;margin:14px 0;font-size:14px}.compare th,.compare td{padding:9px 8px;border-bottom:1px solid #e5e5ea;text-align:left}.compare th{background:#f2f2f7}</style>
+</head>
+<body>
+<p class="crumb"><a href="/promptforge-support/apps.html">All apps</a> &rsaquo; <a href="/promptforge-support/debtfree/">DebtFree</a> &rsaquo; Credit Card Payoff Calculator</p>
+
+<h1>Credit Card Payoff Calculator</h1>
+<p class="dek">Enter your balance, APR, and monthly payment. See your payoff date and total interest instantly. No sign-up. Math runs in your browser — nothing is sent anywhere.</p>
+
+<div class="calc">
+<label for="bal">Current balance ($)</label>
+<input id="bal" type="number" placeholder="5000" value="5000" step="100">
+<label for="apr">APR (%)</label>
+<input id="apr" type="number" placeholder="22.99" value="22.99" step="0.1">
+<label for="pmt">Monthly payment ($)</label>
+<input id="pmt" type="number" placeholder="200" value="200" step="10">
+<div class="calc-out" id="out">
+<strong>Payoff time:</strong> <span id="months">—</span> months<br>
+<strong>Total interest paid:</strong> $<span id="interest">—</span><br>
+<strong>Total amount paid:</strong> $<span id="total">—</span>
+</div>
+<div class="calc-out" style="background:#fff5d6;color:#8b6f00;border-radius:8px">
+Try doubling your monthly payment and watch the payoff time drop. That's the power of paying more than the minimum.
+</div>
+</div>
+
+<a class="cta" href="https://apps.apple.com/us/app/debtfree-payoff-planner/id6760978185">📱 Get DebtFree (multi-debt planner) — $3.99</a>
+<a class="cta secondary" href="/promptforge-support/debtfree/">About DebtFree</a>
+
+<h2>How the math works</h2>
+<p>The calculator above uses the standard credit card amortization formula:</p>
+<ol>
+<li>Each month, interest is calculated as <code>balance × (APR / 12)</code>.</li>
+<li>Your monthly payment is applied: interest first, then principal.</li>
+<li>The remaining balance carries forward to the next month.</li>
+<li>This repeats until the balance reaches $0.</li>
+</ol>
+<p>It assumes a fixed APR, a fixed monthly payment, and no new charges. Real credit cards may use daily compounding (slightly more interest), variable APRs, and have fees — use this as a planning estimate, not a guarantee.</p>
+
+<h2>Why minimum payments are a trap</h2>
+<p>A typical credit card minimum payment is around 1–2% of the balance, plus interest. On a $5,000 balance at 22.99% APR with $50/month minimum payment:</p>
+<ul>
+<li><strong>Payoff time:</strong> the math doesn't actually converge — you'd accrue interest faster than you pay it down. The card issuer would eventually adjust the minimum.</li>
+<li><strong>Real-world payoff:</strong> on the same balance with a typical 1% + interest minimum, payoff takes <strong>20+ years</strong> and you pay more than double the original balance in interest.</li>
+</ul>
+<p>The single most powerful move on credit card debt: <strong>pay more than the minimum</strong>. Even an extra $50/month often cuts the payoff time in half.</p>
+
+<h2>Snowball vs avalanche (when you have multiple cards)</h2>
+<p>If you only have one credit card, just maximize the payment. If you have multiple debts (multiple cards, a loan, medical bills), you need a payoff order strategy:</p>
+<table class="compare">
+<thead><tr><th>Method</th><th>Order</th><th>Best for</th></tr></thead>
+<tbody>
+<tr><td><strong>Avalanche</strong></td><td>Highest APR first</td><td>Math optimizers — saves the most total interest</td></tr>
+<tr><td><strong>Snowball</strong></td><td>Smallest balance first</td><td>Motivation hunters — quick wins build momentum</td></tr>
+</tbody>
+</table>
+<p>Both work. The best method is the one you'll actually stick with for 18–36 months. <a href="/promptforge-support/debtfree/snowball-vs-avalanche/">Read the full snowball vs avalanche comparison →</a></p>
+
+<h2>What DebtFree (the iOS app) adds</h2>
+<p>The calculator above handles one debt. Most people in serious payoff have 2–6 debts. DebtFree:</p>
+<ul>
+<li>Tracks multiple debts (credit cards, loans, medical, student loans)</li>
+<li>Lets you pick snowball or avalanche order</li>
+<li>Shows your overall debt-free date — and updates it in real time as you log payments</li>
+<li>What-if tool: "what if I throw an extra $200 at this card?" — instant payoff date update</li>
+<li>Zero data leaves your device — no bank login, no account, no server-side data</li>
+<li>$3.99 one-time, no subscription</li>
+</ul>
+
+<h2>FAQ</h2>
+<div class="faq"><strong>Does this save my data?</strong>No. The calculator runs entirely in your browser. Nothing is sent to a server, nothing is saved. Refresh the page and your inputs are gone.</div>
+<div class="faq"><strong>Can I trust the payoff number?</strong>It's accurate for the inputs you provide, assuming fixed APR and fixed monthly payment. Real-world variables (variable APR, fees, missed payments, new charges) will move the actual number.</div>
+<div class="faq"><strong>Should I pay off credit card debt or invest?</strong>Generally, paying off credit card debt at 20%+ APR is mathematically better than investing — almost no investment reliably beats 20% returns. But this depends on your situation. This is educational content, not financial advice.</div>
+<div class="faq"><strong>What if I have multiple cards?</strong>Use this calculator to model each one, or download DebtFree to plan all of them together with snowball/avalanche ordering.</div>
+
+<h2>Get DebtFree</h2>
+<p><a class="cta" href="https://apps.apple.com/us/app/debtfree-payoff-planner/id6760978185">📱 App Store — $3.99 one-time</a></p>
+
+<div class="footer">© 2026 Chris Busbin. Educational tool, not financial advice. <a href="/promptforge-support/debtfree/">Back to DebtFree</a> · <a href="/promptforge-support/debtfree/snowball-vs-avalanche/">Snowball vs Avalanche</a> · <a href="/promptforge-support/debtfree/everydollar-alternative/">vs EveryDollar</a></div>
+
+<script>
+function calc(){
+  var bal = parseFloat(document.getElementById('bal').value) || 0;
+  var apr = parseFloat(document.getElementById('apr').value) || 0;
+  var pmt = parseFloat(document.getElementById('pmt').value) || 0;
+  var monthly = apr / 100 / 12;
+  if (bal <= 0 || pmt <= 0){
+    document.getElementById('months').textContent = '—';
+    document.getElementById('interest').textContent = '—';
+    document.getElementById('total').textContent = '—';
+    return;
+  }
+  var minMonthlyInt = bal * monthly;
+  if (pmt <= minMonthlyInt){
+    document.getElementById('months').textContent = 'Never (payment too low)';
+    document.getElementById('interest').textContent = '∞';
+    document.getElementById('total').textContent = '∞';
+    return;
+  }
+  var months = 0, totalInt = 0, b = bal;
+  while (b > 0.01 && months < 1000){
+    var int = b * monthly;
+    var prin = pmt - int;
+    if (prin > b) prin = b;
+    totalInt += int;
+    b -= prin;
+    months++;
+  }
+  document.getElementById('months').textContent = months;
+  document.getElementById('interest').textContent = totalInt.toFixed(2);
+  document.getElementById('total').textContent = (bal + totalInt).toFixed(2);
+}
+['bal','apr','pmt'].forEach(function(id){document.getElementById(id).addEventListener('input', calc);});
+calc();
+</script>
+</body>
+</html>
