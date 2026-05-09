@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Best Stable Diffusion Prompt Manager — Save & Organize SD/Flux Prompts</title>
+<meta name="description" content="Stable Diffusion and Flux prompts have positive prompts, negative prompts, LoRAs, samplers, CFG values. Here's how to actually save complete prompt sets so you can reproduce results.">
+<meta name="keywords" content="Stable Diffusion prompt manager, save Stable Diffusion prompts, SD prompt library, Flux prompt manager, ComfyUI prompt organizer, Automatic1111 prompt save, Stable Diffusion prompt vault, image gen prompt app">
+<link rel="canonical" href="https://chrisbusbin-pixel.github.io/promptforge-support/stable-diffusion-prompt-manager/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Best Stable Diffusion Prompt Manager">
+<meta property="og:description" content="Save complete prompt sets — positive, negative, LoRAs, samplers, CFG. Reproduce your best generations.">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Best Stable Diffusion Prompt Manager","author":{"@type":"Person","name":"Chris Busbin"},"datePublished":"2026-05-08","dateModified":"2026-05-08","mainEntityOfPage":"https://chrisbusbin-pixel.github.io/promptforge-support/stable-diffusion-prompt-manager/"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I save Stable Diffusion prompts?","acceptedAnswer":{"@type":"Answer","text":"You need to save more than just the positive prompt. A complete Stable Diffusion prompt set includes: positive prompt, negative prompt, LoRA names + strengths, sampler, CFG scale, seed, steps, model checkpoint, and aspect ratio. Tools that store only the positive prompt make it hard to reproduce results."}},{"@type":"Question","name":"Can PromptForge save complete Stable Diffusion prompt sets?","acceptedAnswer":{"@type":"Answer","text":"Yes — PromptForge stores any text-based prompt with formatting preserved. The recommended structure is to save positive prompt, negative prompt, and metadata (sampler, CFG, seed, model) as a single multi-line entry, optionally using {{variables}} for the parts you change between generations."}},{"@type":"Question","name":"What's the difference between Stable Diffusion and Flux for prompts?","acceptedAnswer":{"@type":"Answer","text":"Flux generally responds better to natural-language descriptions, while Stable Diffusion 1.5 / SDXL respond better to keyword-style prompts (comma-separated tags). Flux uses fewer or no negative prompts. Both benefit from saving complete prompt sets so you can reproduce results."}},{"@type":"Question","name":"What about ComfyUI workflows?","acceptedAnswer":{"@type":"Answer","text":"ComfyUI workflows are JSON files saved with each image's PNG metadata. PromptForge isn't a workflow manager — it stores text prompts. For ComfyUI, the workflow JSON is the source of truth. PromptForge complements that for the human-readable prompt text portion."}}]}
+</script>
+<style>*{box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:760px;margin:0 auto;padding:24px;color:#1c1c1e;line-height:1.65}h1{color:#507FB8;font-size:30px;margin-bottom:8px}.dek{font-size:18px;color:#444;margin-bottom:20px}.cta{display:inline-block;background:#507FB8;color:#fff;padding:12px 22px;border-radius:10px;text-decoration:none;font-weight:600;margin:6px 4px}.cta.secondary{background:#f2f2f7;color:#1c1c1e}h2{color:#333;margin-top:32px;border-bottom:1px solid #e5e5ea;padding-bottom:6px}h3{color:#1f4d7a;margin-top:22px}.template{background:#1c1c1e;color:#f2f2f7;padding:14px;border-radius:8px;font-family:Menlo,monospace;font-size:13px;line-height:1.5;overflow-x:auto;white-space:pre-wrap}.compare{width:100%;border-collapse:collapse;margin:14px 0;font-size:14px}.compare th,.compare td{padding:9px 8px;border-bottom:1px solid #e5e5ea;text-align:left}.compare th{background:#f2f2f7}.faq{background:#f2f2f7;padding:14px;border-radius:10px;margin:10px 0}.faq strong{display:block;margin-bottom:5px}a{color:#507FB8}.crumb{color:#666;font-size:14px;margin-bottom:12px}.crumb a{color:#507FB8}.footer{margin-top:36px;padding-top:18px;border-top:1px solid #e5e5ea;color:#8e8e93;font-size:13px}</style>
+</head>
+<body>
+<p class="crumb"><a href="/promptforge-support/">PromptForge</a> &rsaquo; Stable Diffusion Prompt Manager</p>
+
+<h1>Best Stable Diffusion Prompt Manager</h1>
+<p class="dek">Stable Diffusion + Flux prompts are more complex than ChatGPT prompts. Positive prompt, negative prompt, LoRAs, samplers, CFG, seed — losing any of these makes your best generations unreproducible.</p>
+
+<a class="cta" href="https://apps.apple.com/us/app/promptforge-ai-toolkit/id6761397125">📱 Get PromptForge — $4.99</a>
+<a class="cta secondary" href="/promptforge-support/">About PromptForge</a>
+
+<h2>The Stable Diffusion prompt-saving problem</h2>
+<p>A working Stable Diffusion generation has 7+ pieces of state:</p>
+<ol>
+<li><strong>Positive prompt</strong> (what you want)</li>
+<li><strong>Negative prompt</strong> (what to avoid)</li>
+<li><strong>LoRAs</strong> (style adapters) + their strengths</li>
+<li><strong>Sampler</strong> (DPM++ 2M Karras, Euler a, etc.)</li>
+<li><strong>CFG scale</strong> (how strictly to follow prompt)</li>
+<li><strong>Steps</strong> (more steps = more detail, more time)</li>
+<li><strong>Model checkpoint</strong> (SD1.5, SDXL, Flux, custom finetune)</li>
+<li><strong>Seed</strong> (for reproducibility)</li>
+<li><strong>Resolution / aspect ratio</strong></li>
+</ol>
+<p>Saving only the positive prompt loses 80% of what made the image work. You need a system that saves the complete set.</p>
+
+<h2>How most people lose Stable Diffusion prompts</h2>
+
+<h3>Discord / Reddit posts</h3>
+<p>Easy to scroll past. Posts get deleted. Channel context is lost over time.</p>
+
+<h3>Image PNG metadata</h3>
+<p>Most SD interfaces (Automatic1111, ComfyUI, Forge) embed prompt + parameters in the PNG file itself. Great if you keep the PNG. Useless if you accidentally delete it or share a JPG.</p>
+
+<h3>Civitai posts</h3>
+<p>Some users post their generation parameters publicly. Discoverable but not your private library.</p>
+
+<h3>Notes app</h3>
+<p>Workable but lacks structure. Easy to forget which negative prompt goes with which positive.</p>
+
+<h3>Dedicated prompt manager (PromptForge)</h3>
+<p>Saves complete prompt sets with structure, on your phone, offline, private.</p>
+
+<h2>The recommended save structure</h2>
+
+<p>Save your prompts as multi-line text with all parameters in one entry:</p>
+
+<div class="template">📝 Title: Cinematic portrait — golden hour
+🏷 Tags: portrait, cinematic, golden hour
+
+📌 Positive:
+{{subject}}, cinematic photography, golden hour lighting,
+35mm film aesthetic, shallow depth of field, sharp focus on
+eyes, beautiful natural light, professional color grading,
+ultra-detailed, masterpiece
+
+📌 Negative:
+blurry, low quality, deformed, watermark, text, signature,
+extra fingers, mutated hands, oversaturated, cartoon
+
+⚙️ Settings:
+Sampler: DPM++ 2M Karras
+Steps: 30
+CFG: 7
+Resolution: 832x1216 (portrait)
+Model: SDXL base / RealVisXL
+LoRA: detail_tweaker_xl @ 0.6
+
+🎲 Seed: -1 (random) or [specific seed for reproduction]
+
+📓 Notes: Works best with realistic subjects. For
+illustrations, swap to dreamshaper checkpoint.</div>
+
+<p>One template. Variable subject. Reproducible parameters. PromptForge stores all of this as a single prompt entry with formatting preserved.</p>
+
+<h2>Folder structure that scales</h2>
+
+<div class="template">📁 Stable Diffusion / Flux
+   ├── Realistic photography
+   │   ├── Portrait — natural light
+   │   ├── Portrait — studio
+   │   ├── Landscape
+   │   └── Product
+   ├── Illustration
+   │   ├── Watercolor
+   │   ├── Oil painting style
+   │   └── Vector / flat
+   ├── Anime / stylized
+   ├── Concept art
+   │   ├── Character
+   │   ├── Environment
+   │   └── Vehicle
+   ├── Logo / branding
+   ├── Texture / pattern
+   └── Reference renders</div>
+
+<p>Organize by output type, not by model. The same positive prompt with a different checkpoint produces wildly different results — so each generation type may have multiple model variations.</p>
+
+<h2>Negative prompt libraries to save once and reuse</h2>
+
+<h3>Universal anti-bad-quality</h3>
+<div class="template">blurry, low quality, jpeg artifacts, watermark, text, signature, logo, deformed, mutated, low resolution, oversaturated, ugly</div>
+
+<h3>Anti-bad-anatomy (for portraits)</h3>
+<div class="template">extra fingers, missing fingers, deformed hands, mutated hands, fused fingers, extra limbs, missing limbs, asymmetric eyes, malformed face, bad anatomy</div>
+
+<h3>Anti-photo-style (for illustration)</h3>
+<div class="template">photograph, photo, photorealistic, 3d render, octane render</div>
+
+<h3>Anti-cartoon (for realistic)</h3>
+<div class="template">cartoon, anime, illustration, painting, drawing, sketch, 3d render</div>
+
+<p>Save these as templates. Reuse across hundreds of generations. Stop rewriting the same negative prompts.</p>
+
+<h2>Why PromptForge fits the brief</h2>
+<table class="compare">
+<thead><tr><th>Feature</th><th>Why it matters for SD/Flux</th></tr></thead>
+<tbody>
+<tr><td>Long multi-line text storage</td><td>Complete prompt sets fit cleanly with formatting preserved</td></tr>
+<tr><td>Variable templates</td><td>Change subject, keep all parameters; <code>{{subject}}, cinematic, --ar 9:16</code></td></tr>
+<tr><td>Folders + tags</td><td>By style, by checkpoint, by use case</td></tr>
+<tr><td>One-tap copy</td><td>Tap → paste into Automatic1111 / ComfyUI / cloud SD</td></tr>
+<tr><td>Offline access</td><td>Your prompt library never depends on a service being up</td></tr>
+<tr><td>On-device storage</td><td>Prompts can include client/project context — stays private</td></tr>
+<tr><td>JSON import</td><td>Bulk-import existing prompt collections</td></tr>
+<tr><td>200+ starter templates</td><td>Get going on day 1</td></tr>
+</tbody>
+</table>
+
+<h2>Workflow for SD/Flux generators</h2>
+<ol>
+<li>Generate in Automatic1111 / ComfyUI / Forge / cloud SD service</li>
+<li>When a generation works, copy the full parameter block (positive + negative + settings)</li>
+<li>Open PromptForge → New prompt → paste with the structure shown above</li>
+<li>Add a 1-line description and tag it</li>
+<li>Save to appropriate folder</li>
+<li>For variations: use <code>{{subject}}</code> placeholder; fill in different subjects each time</li>
+</ol>
+
+<h2>Differences between SD, SDXL, and Flux prompting</h2>
+
+<h3>SD 1.5</h3>
+<p>Keyword-style. Comma-separated tags. Heavy use of negative prompts. Lower resolution native (512×512). LoRAs widely used.</p>
+
+<h3>SDXL</h3>
+<p>Hybrid — keywords still work but natural language helps. Native 1024×1024. Better with detailed style modifiers.</p>
+
+<h3>Flux (dev/schnell)</h3>
+<p>Natural language descriptions work much better than keyword lists. Negative prompts often unnecessary or counterproductive. Different sampler/CFG ranges than SD.</p>
+
+<p>If you save prompts across multiple model families, tag each with the target model so you don't paste a SD1.5 prompt into Flux and wonder why it doesn't work.</p>
+
+<h2>FAQ</h2>
+<div class="faq"><strong>Does PromptForge run Stable Diffusion?</strong>No. It stores and copies prompts. You generate in your preferred SD interface (Automatic1111, ComfyUI, Forge, Krita, cloud services like Civitai or Replicate).</div>
+<div class="faq"><strong>Can I import from CivitAI?</strong>Manual copy-paste works. Bulk import via JSON works if CivitAI exports JSON.</div>
+<div class="faq"><strong>What about LoRA + checkpoint metadata?</strong>Save them in the prompt entry as text. PromptForge stores any text content; the structure is up to you. The recommended format above keeps everything reproducible.</div>
+<div class="faq"><strong>Can I save the generated image too?</strong>PromptForge stores text only. For images, use Photos, your local file system, or your SD interface's gallery feature.</div>
+<div class="faq"><strong>Is there an Android version?</strong>iOS only. For Android, a Notion database or local SD interface's history works as an alternative.</div>
+
+<h2>Get PromptForge</h2>
+<p><a class="cta" href="https://apps.apple.com/us/app/promptforge-ai-toolkit/id6761397125">📱 App Store — $4.99 one-time</a></p>
+
+<div class="footer">© 2026 Chris Busbin. <a href="/promptforge-support/">Back to PromptForge</a> · <a href="/promptforge-support/midjourney-prompt-manager/">Midjourney prompt manager</a> · <a href="/promptforge-support/chatgpt-prompt-manager/">ChatGPT prompt manager</a> · <a href="/promptforge-support/how-to-organize-chatgpt-prompts/">Organize prompts</a></div>
+</body>
+</html>
