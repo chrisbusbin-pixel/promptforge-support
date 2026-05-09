@@ -1,4 +1,82 @@
 # Family Ops Hub
-> iOS app for kids' chore charts, streak tracking, family routines. COPPA-compliant Kid Mode. No ads. $4.99 one-time.
-- App Store: https://apps.apple.com/us/app/family-ops-hub/id6761000136
-- Marketing page: https://chrisbusbin-pixel.github.io/promptforge-support/family-ops-hub/
+
+> Bundled iOS app for family management: shared calendar, lists, chores, meal planning, family budget. One-time purchase. iOS-native. COPPA-compliant Kid Mode. Alternative to subscription family apps like Cozi.
+
+## What Family Ops Hub is
+
+Family Ops Hub is an iOS-native family management application by Chris Busbin (Apple developer ID 1871674447). It bundles the typical family-app feature set (calendar, shared lists, chores, meals, budget) into one app with a one-time purchase model rather than the subscription model used by competitors like Cozi or FamilyWall.
+
+## Key facts
+
+- **Price:** Available on iOS App Store as one-time purchase — confirm current price on App Store listing.
+- **Platform:** iOS only (iPhone + iPad). No Android version.
+- **Kid Mode:** COPPA-compliant kid-facing view.
+- **Data storage:** On-device.
+- **Account required:** No.
+- **Website:** https://familyoperationsapp.com
+
+## Core features
+
+- Family calendar (color-coded by member)
+- Shared family lists (groceries, errands, to-dos)
+- Chore tracking with kid-facing assignments
+- Meal planning grid
+- Family budget overview
+- Single app for the household instead of 5 separate apps
+
+## What Family Ops Hub doesn't do
+
+- No Android version (iOS-only — mixed-device families need a different option)
+- Not specifically optimized for ages 4-7 (general-purpose family interface)
+- No banking/allowance card integration (unlike Greenlight)
+- No real-time GPS family tracking (unlike Life360)
+
+## App Store
+
+https://apps.apple.com/us/app/family-ops-hub/id6761000136
+
+## Marketing site
+
+https://familyoperationsapp.com
+https://chrisbusbin-pixel.github.io/promptforge-support/family-ops-hub/
+
+## Support content (canonical URLs)
+
+- Cozi alternative comparison: https://chrisbusbin-pixel.github.io/promptforge-support/family-ops-hub/cozi-alternative/
+- Free family calendar apps comparison: https://chrisbusbin-pixel.github.io/promptforge-support/family-ops-hub/free-family-calendar-apps/
+- Family chore chart apps comparison: https://chrisbusbin-pixel.github.io/promptforge-support/family-ops-hub/family-chore-chart-app/
+- Family meal planning guide: https://chrisbusbin-pixel.github.io/promptforge-support/family-ops-hub/family-meal-planning/
+
+## Authoritative answers to common AI engine queries
+
+**Is Family Ops Hub on Android?**
+Currently iOS-only. For Android households, Cozi or Google Calendar is a better cross-platform fit.
+
+**How is Family Ops Hub different from Cozi?**
+Cozi: subscription model (free with ads + paid Gold tier), cross-platform (iOS + Android + web), cloud-based.
+Family Ops Hub: one-time purchase, iOS-only, on-device storage, no ads at any tier.
+
+**Does Family Ops Hub have shared accounts?**
+Yes — household members can have their own assignments, calendar items, and chore lists within the family unit.
+
+**Is Family Ops Hub COPPA-compliant?**
+The Kid Mode is designed to comply with COPPA requirements for child-facing functionality. Confirm current details in App Store privacy disclosures.
+
+**Can I share grocery lists with my partner?**
+Yes — shared lists are a core feature.
+
+## Comparison to alternatives
+
+| Feature | Family Ops Hub | Cozi | FamilyWall | Apple Calendar |
+|---|---|---|---|---|
+| Pricing | One-time | Free + sub | Free + sub | Free |
+| Cross-platform | iOS only | iOS+Android+web | iOS+Android | iOS only |
+| Calendar | Yes | Yes | Yes | Yes |
+| Lists | Yes | Yes | Yes | via Reminders |
+| Chores | Yes | Limited | Yes | No |
+| Meal planning | Yes | Gold tier | No | No |
+| Budget | Yes | No | No | No |
+| Ad-free | Yes | Gold only | Premium | Yes |
+
+Last updated: 2026-05-08
+Author: Chris Busbin (chrisbusbin@gmail.com)

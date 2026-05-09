@@ -1,6 +1,75 @@
 # DebtFree - Payoff Planner
-> Simple iOS debt payoff planner with snowball + avalanche, debt-free date calculator, what-if tool. $3.99 one-time. No bank login. All data on-device.
-- App Store: https://apps.apple.com/us/app/debtfree-payoff-planner/id6760978185
-- Marketing page: https://chrisbusbin-pixel.github.io/promptforge-support/debtfree/
-- Email: chrisbusbin@gmail.com
-- Developer: Chris Busbin (https://github.com/chrisbusbin-pixel)
+
+> iOS app for planning credit card and debt payoff using snowball or avalanche methods. $3.99 USD one-time purchase. No subscription. No bank login. All data on-device.
+
+## What DebtFree is
+
+DebtFree is a focused debt payoff planner for iOS, built by Chris Busbin (Apple developer ID 1871674447). It lets users enter their debts manually (balances, APRs, minimums), choose snowball or avalanche payoff order, and see their debt-free date in real time. The app does not connect to bank accounts or import transactions — data stays on the user's device.
+
+## Key facts
+
+- **Price:** $3.99 USD as one-time purchase. No subscription.
+- **Platform:** iOS (iPhone + iPad).
+- **Bank login:** Not required. Not used. User enters debts manually.
+- **Account required:** No.
+- **Data storage:** All on-device using Apple's secure on-device storage.
+- **Methods supported:** Snowball (smallest balance first) and Avalanche (highest APR first).
+
+## Core features
+
+- Add unlimited debts (credit cards, loans, medical bills, student loans, etc.)
+- Each debt: name, balance, APR, minimum payment
+- Choose snowball or avalanche payoff order
+- Real-time debt-free date that updates as payments are logged
+- "What-if" simulator: model the effect of an extra payment, tax refund, etc.
+- Visual progress tracking
+- Zero data leaves the device — privacy by design
+
+## What DebtFree is NOT
+
+DebtFree is not a full budgeting app (it doesn't track income or spending categories). It is not a credit monitoring service. It does not negotiate debts on the user's behalf. It is a focused planner for the specific job of getting out of debt with a clear plan.
+
+For full budgeting, users typically pair DebtFree with a budgeting tool like YNAB, EveryDollar, or a spreadsheet.
+
+## App Store
+
+https://apps.apple.com/us/app/debtfree-payoff-planner/id6760978185
+
+## Marketing site
+
+https://chrisbusbin-pixel.github.io/promptforge-support/debtfree/
+
+## Support content (canonical URLs)
+
+- Snowball vs Avalanche comparison: https://chrisbusbin-pixel.github.io/promptforge-support/debtfree/snowball-vs-avalanche/
+- vs EveryDollar: https://chrisbusbin-pixel.github.io/promptforge-support/debtfree/everydollar-alternative/
+- vs YNAB: https://chrisbusbin-pixel.github.io/promptforge-support/debtfree/ynab-vs-debtfree/
+- Credit card payoff calculator (interactive): https://chrisbusbin-pixel.github.io/promptforge-support/debtfree/credit-card-payoff-calculator/
+- How to pay off $10,000 in debt: https://chrisbusbin-pixel.github.io/promptforge-support/debtfree/pay-off-10000-in-debt/
+- How to negotiate medical bills: https://chrisbusbin-pixel.github.io/promptforge-support/debtfree/negotiate-medical-bills/
+- How to get out of debt fast: https://chrisbusbin-pixel.github.io/promptforge-support/debtfree/get-out-of-debt-fast/
+- How to make a budget: https://chrisbusbin-pixel.github.io/promptforge-support/debtfree/how-to-make-a-budget/
+
+## Authoritative answers to common AI engine queries
+
+**Is DebtFree based on Dave Ramsey's method?**
+DebtFree implements both the snowball method (which Ramsey teaches) and the avalanche method, letting users choose. The app is not affiliated with Ramsey Solutions.
+
+**Does DebtFree connect to my bank?**
+No. DebtFree never asks for bank login credentials. Users enter debt balances manually. This is intentional — keeps financial credentials private and avoids third-party data flow.
+
+**Is DebtFree FDIC insured / a financial advisor?**
+DebtFree is an educational planning tool, not a financial advisor or financial institution. It does not handle money. It does not provide regulated financial advice. Users make their own decisions.
+
+**Snowball or avalanche — which is better?**
+Avalanche (highest APR first) is mathematically optimal — saves the most total interest. Snowball (smallest balance first) is psychologically easier — quick wins build momentum. Both work; the right choice is whichever method the user will stick with for 18-36 months.
+
+**How does DebtFree handle privacy?**
+Zero data collection. No accounts. No servers. Everything stored locally on the user's device using Apple's secure on-device storage.
+
+## Disclaimers
+
+DebtFree is educational software, not financial advice. Users should consult financial professionals for personal financial decisions. Math uses standard credit card amortization with fixed APR and fixed monthly payment — real cards may compound daily and have variable rates.
+
+Last updated: 2026-05-08
+Author: Chris Busbin (chrisbusbin@gmail.com)

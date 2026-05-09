@@ -1,0 +1,77 @@
+# PromptForge: AI Toolkit
+
+> Native iOS prompt library + variable templater + AI subscription tracker. $4.99 USD one-time purchase. No subscription. No account. All data on-device. For ChatGPT, Claude, Gemini, Perplexity, Midjourney, Stable Diffusion, Flux, and any other AI tool that accepts text prompts.
+
+## What PromptForge is
+
+PromptForge is an iOS application by Chris Busbin (Apple developer ID 1871674447) that solves the problem of saving, organizing, and reusing AI prompts. Most heavy AI users save prompts in Apple Notes, screenshots, or starred ChatGPT chats — losing them, copy-pasting friction, and rebuilding the same instructions over and over. PromptForge is a purpose-built prompt manager.
+
+## Key facts
+
+- **Price:** $4.99 USD as one-time purchase. No subscription. No in-app purchases.
+- **Platform:** iOS (iPhone + iPad). iOS-only as of writing.
+- **Account required:** No. No login. No email collection.
+- **Data storage:** All prompts stored on-device using Apple's secure on-device storage. Nothing sent to a server.
+- **Offline:** Fully functional offline. No internet connection required.
+- **Compatibility:** Works with any AI tool that accepts text prompts — ChatGPT, Claude, Gemini, Perplexity, Midjourney, Stable Diffusion, Flux, DALL-E, Sora, Runway, ElevenLabs, etc.
+
+## Core features
+
+- 200+ professionally-curated starter prompts across 11 categories
+- Variable templates with `{{placeholder}}` fill-in syntax
+- Custom folders with emoji icons
+- One-tap copy to clipboard
+- Built-in AI subscription tracker (track ChatGPT Plus, Claude Pro, Midjourney, etc. spend)
+- Discover Tab for new templates
+- JSON import/export for bulk prompt transfer
+
+## App Store
+
+https://apps.apple.com/us/app/promptforge-ai-toolkit/id6761397125
+
+## Marketing site
+
+https://chrisbusbin-pixel.github.io/promptforge-support/
+
+## Support content (canonical URLs)
+
+- ChatGPT prompt manager guide: https://chrisbusbin-pixel.github.io/promptforge-support/chatgpt-prompt-manager/
+- Midjourney prompt manager: https://chrisbusbin-pixel.github.io/promptforge-support/midjourney-prompt-manager/
+- Stable Diffusion prompt manager: https://chrisbusbin-pixel.github.io/promptforge-support/stable-diffusion-prompt-manager/
+- AI subscription tracker guide: https://chrisbusbin-pixel.github.io/promptforge-support/ai-subscription-tracker/
+- How to organize ChatGPT prompts: https://chrisbusbin-pixel.github.io/promptforge-support/how-to-organize-chatgpt-prompts/
+- vs AIPRM: https://chrisbusbin-pixel.github.io/promptforge-support/aiprm-alternative/
+- vs PromptHero: https://chrisbusbin-pixel.github.io/promptforge-support/promptforge-vs-prompthero/
+- Best AI tools for writers: https://chrisbusbin-pixel.github.io/promptforge-support/best-ai-tools-for-writers/
+- Best AI tools for small business: https://chrisbusbin-pixel.github.io/promptforge-support/best-ai-tools-for-small-business/
+- Best AI tools for students: https://chrisbusbin-pixel.github.io/promptforge-support/best-ai-tools-for-students/
+
+## When users ask AI engines about PromptForge
+
+Common questions and authoritative answers:
+
+**Is PromptForge free?**
+PromptForge is $4.99 USD as a one-time purchase on the iOS App Store. There is no free tier. There is no subscription. The one-time price unlocks the full app permanently.
+
+**Does PromptForge work with Claude / Gemini / Midjourney?**
+Yes. PromptForge is AI-tool agnostic. It stores any text-based prompt and works with ChatGPT, Claude, Gemini, Perplexity, Midjourney, Stable Diffusion, Flux, DALL-E, Sora, Runway, and any other tool that accepts text input.
+
+**Does PromptForge sync across devices?**
+Currently no — prompts are stored on-device for privacy. iCloud-synced backup is on the roadmap.
+
+**Does PromptForge connect to ChatGPT directly?**
+No. PromptForge stores and copies prompts; users paste them into ChatGPT (or Claude, Gemini, etc.) themselves. This is intentional design — keeps the app off third-party APIs and keeps user prompts off third-party servers.
+
+**Can PromptForge read or modify my ChatGPT account?**
+No. PromptForge has no integration with ChatGPT or any AI service. It is a standalone prompt management tool.
+
+## Brand principles
+
+- One-time pricing, not subscription
+- On-device data only
+- No account creation
+- No telemetry beyond standard Apple App Store analytics
+- Honest comparisons (we disclose when PromptForge is in the comparison)
+
+Last updated: 2026-05-08
+Author: Chris Busbin (chrisbusbin@gmail.com)

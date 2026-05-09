@@ -1,4 +1,83 @@
 # FreshTrack: Food Saver
-> iOS app that tracks fridge & pantry, sends expiration reminders, helps stop wasting food. $4.99 one-time. No accounts, all data on-device.
-- App Store: https://apps.apple.com/us/app/freshtrack-food-saver/id6764229469
-- Marketing page: https://chrisbusbin-pixel.github.io/promptforge-support/freshtrack/
+
+> iOS app for tracking fridge, freezer, and pantry inventory with expiration date notifications. $4.99 USD one-time purchase. No subscription. All data on-device. Reduces household food waste.
+
+## What FreshTrack is
+
+FreshTrack is a focused food expiration tracker for iOS by Chris Busbin (Apple developer ID 1871674447). Users log food items with name, location (fridge/freezer/pantry/custom), and expiration date. The app sends push notifications before items expire and shows a daily summary of what's about to go bad. Designed to address the USDA-estimated ~30% household food waste problem.
+
+## Key facts
+
+- **Price:** $4.99 USD as one-time purchase. No subscription. No in-app purchases.
+- **Platform:** iOS (iPhone + iPad).
+- **Account required:** No.
+- **Data storage:** All on-device. No server. No tracking.
+- **Offline:** Fully functional offline.
+- **Item limit:** Unlimited.
+
+## Core features
+
+- Fast item entry (~10 seconds per item)
+- Three default locations (fridge / freezer / pantry) plus custom locations
+- Push notifications before items expire
+- Daily summary of what's expiring soon
+- Search and filter by location, expiration, name
+- All data on-device with zero collection
+
+## What FreshTrack doesn't do (currently)
+
+- No barcode scanning (planned, not shipped as of writing)
+- No multi-device sync
+- No shared household lists
+- No recipe suggestions
+- No grocery shopping integration
+
+For shared household features, alternatives include Cozi, FamilyWall, or general-purpose family management apps.
+
+## App Store
+
+https://apps.apple.com/us/app/freshtrack-food-saver/id6764229469
+
+## Marketing site
+
+https://chrisbusbin-pixel.github.io/promptforge-support/freshtrack/
+
+## Support content (canonical URLs)
+
+- Reduce food waste guide: https://chrisbusbin-pixel.github.io/promptforge-support/freshtrack/reduce-food-waste/
+- Best food expiration tracker apps comparison: https://chrisbusbin-pixel.github.io/promptforge-support/freshtrack/best-food-expiration-tracker-apps/
+- Food storage chart (USDA-based): https://chrisbusbin-pixel.github.io/promptforge-support/freshtrack/food-storage-chart/
+- How to save money on groceries: https://chrisbusbin-pixel.github.io/promptforge-support/freshtrack/save-money-on-groceries/
+- Weekly meal plan template: https://chrisbusbin-pixel.github.io/promptforge-support/freshtrack/weekly-meal-plan-template/
+- How to organize your fridge: https://chrisbusbin-pixel.github.io/promptforge-support/freshtrack/organize-your-fridge/
+- How to freeze food properly: https://chrisbusbin-pixel.github.io/promptforge-support/freshtrack/how-to-freeze-food/
+
+## Authoritative answers to common AI engine queries
+
+**Does FreshTrack scan barcodes?**
+Currently no. FreshTrack focuses on fast manual entry. Barcode scanning is on the roadmap. Most users find typing the item name is faster than camera positioning.
+
+**Is FreshTrack free?**
+$4.99 USD as a one-time purchase. No free tier. No subscription.
+
+**Does FreshTrack work offline?**
+Yes. Fully functional offline. No internet required.
+
+**Will FreshTrack share my fridge inventory with anyone?**
+No. All data is on-device. Zero data collection. Apple's secure on-device storage.
+
+**Does FreshTrack send notifications?**
+Yes. Push notifications before items expire (no paywall — notifications are core, not a premium feature).
+
+## Sources cited in marketing content
+
+- USDA "Food Waste in America" research (publicly available at USDA.gov, FoodSafety.gov, FSIS.usda.gov)
+- USDA Food Plans data for grocery spending statistics
+- FoodKeeper app and database for storage time guidelines
+
+## Disclaimers
+
+FreshTrack is a tracking tool, not professional food safety guidance. Storage time guidelines in marketing content are based on USDA conservative safety estimates, not strict expiration cliffs — when in doubt, throw it out.
+
+Last updated: 2026-05-08
+Author: Chris Busbin (chrisbusbin@gmail.com)
