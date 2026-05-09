@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Wedding Budget Calculator — Free, No Sign-Up (WeddingDay iOS App)</title>
+<meta name="description" content="A free, in-browser wedding budget calculator. Enter your total budget and guest count — see industry-standard category allocations and what couples typically spend on each line item.">
+<meta name="keywords" content="wedding budget calculator, wedding budget breakdown, wedding cost calculator, average wedding budget, wedding budget app, wedding planner with budget, wedding cost percentages">
+<link rel="canonical" href="https://chrisbusbin-pixel.github.io/promptforge-support/weddingday/wedding-budget-calculator/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Wedding Budget Calculator — Free, No Sign-Up">
+<meta property="og:description" content="Enter your budget. Get the industry-standard category breakdown. Then check out WeddingDay, the iOS app that tracks the whole plan.">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Wedding Budget Calculator","applicationCategory":"FinanceApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"Chris Busbin"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the average wedding budget?","acceptedAnswer":{"@type":"Answer","text":"Average US wedding spend has fluctuated between roughly $28,000 and $35,000 in recent years, with significant regional variance. Cities like New York and San Francisco run materially higher; smaller-town and rural weddings run materially lower. The average isn't necessarily the right benchmark — set a budget you can actually afford, not what couples spent on average."}},{"@type":"Question","name":"How should I split my wedding budget?","acceptedAnswer":{"@type":"Answer","text":"A common industry-standard breakdown: venue + catering ~50%, photography/video ~10-12%, attire ~8-10%, flowers/decor ~8-10%, entertainment ~8-10%, stationery ~2-3%, rings ~2-3%, miscellaneous/buffer ~5-10%. Use this as a starting point and adjust to your priorities — you'll want more flowers if you don't care about live music, more music if you don't care about flowers."}},{"@type":"Question","name":"Why does this calculator not save my data?","acceptedAnswer":{"@type":"Answer","text":"The calculator runs entirely in your browser. Nothing is sent to a server, nothing is stored. Refresh the page and your inputs are gone. If you want a wedding planner that saves your full plan locally on your phone with zero data collection, check out WeddingDay on the iOS App Store."}},{"@type":"Question","name":"Should I include a buffer in my wedding budget?","acceptedAnswer":{"@type":"Answer","text":"Yes — every wedding planner recommends a 5-10% contingency buffer for unexpected costs (alterations, travel, weather backup, last-minute additions). Real-world weddings almost always exceed the initial budget by some amount. A buffer prevents the overage from coming out of savings or hitting credit cards."}}]}
+</script>
+<style>*{box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:760px;margin:0 auto;padding:24px;color:#1c1c1e;line-height:1.65}h1{color:#b8336a;font-size:30px;margin-bottom:8px}.dek{font-size:18px;color:#444;margin-bottom:20px}.cta{display:inline-block;background:#b8336a;color:#fff;padding:12px 22px;border-radius:10px;text-decoration:none;font-weight:600;margin:6px 4px}.cta.secondary{background:#f2f2f7;color:#1c1c1e}h2{color:#333;margin-top:32px;border-bottom:1px solid #e5e5ea;padding-bottom:6px}h3{color:#7a1e44;margin-top:22px}.calc{background:#fdf0f5;padding:20px;border-radius:12px;margin:16px 0;border-left:4px solid #b8336a}.calc label{display:block;margin:10px 0 4px;font-weight:600;color:#7a1e44}.calc input{width:100%;padding:10px;font-size:16px;border:1px solid #f1c8d7;border-radius:6px;background:#fff}.calc-out{margin-top:14px;padding:12px;background:#fff;border-radius:8px;font-size:14px}.calc-out table{width:100%;border-collapse:collapse}.calc-out th,.calc-out td{padding:6px 4px;border-bottom:1px solid #f1e0e8;text-align:left;font-size:14px}.calc-out th{background:#fdf0f5;color:#7a1e44}.calc-out tr.tot{font-weight:700;background:#fdf0f5}.faq{background:#f2f2f7;padding:14px;border-radius:10px;margin:10px 0}.faq strong{display:block;margin-bottom:5px}a{color:#b8336a}.crumb{color:#666;font-size:14px;margin-bottom:12px}.crumb a{color:#b8336a}.footer{margin-top:36px;padding-top:18px;border-top:1px solid #e5e5ea;color:#8e8e93;font-size:13px}</style>
+</head>
+<body>
+<p class="crumb"><a href="/promptforge-support/apps.html">All apps</a> &rsaquo; <a href="/promptforge-support/weddingday/">WeddingDay</a> &rsaquo; Wedding Budget Calculator</p>
+
+<h1>Wedding Budget Calculator</h1>
+<p class="dek">Enter your total budget and guest count. See industry-standard category allocations instantly. Math runs in your browser — nothing is sent anywhere, nothing is saved.</p>
+
+<div class="calc">
+<label for="budget">Total wedding budget ($)</label>
+<input id="budget" type="number" placeholder="30000" value="30000" step="500">
+<label for="guests">Number of guests</label>
+<input id="guests" type="number" placeholder="100" value="100" step="5">
+<div class="calc-out" id="out">
+<table>
+<thead><tr><th>Category</th><th>%</th><th>Amount</th></tr></thead>
+<tbody id="rows"></tbody>
+</table>
+</div>
+<div class="calc-out" style="background:#fff5d6;color:#8b6f00;border-radius:8px;font-size:13px">
+Per-guest spend (venue + catering): $<span id="perguest">—</span>. Industry rule of thumb: per-guest catering+venue typically falls in the $80–$200 range depending on region and style.
+</div>
+</div>
+
+<a class="cta" href="https://apps.apple.com/us/app/weddingday-planner-and-budget/id6760993416">📱 Get WeddingDay (full planner) — $9.99</a>
+<a class="cta secondary" href="/promptforge-support/weddingday/">About WeddingDay</a>
+
+<h2>How the percentages work</h2>
+<p>The calculator uses commonly-cited industry-standard wedding budget breakdowns. These are <strong>starting points</strong>, not rules — adjust to your priorities. A couple who cares more about photography than flowers can move money from one to the other. The percentages should add to ~100% (we leave a 5% buffer at the end for the things you don't see coming).</p>
+
+<h2>Category-by-category</h2>
+
+<h3>Venue + catering (~48%)</h3>
+<p>By far the biggest line item. Includes the location rental, food, beverages, service staff, and rentals (tables, chairs, linens). Per-guest cost varies wildly by region and style — buffet vs plated, beer-and-wine vs full bar, peak season vs off-season.</p>
+
+<h3>Photography + videography (~10%)</h3>
+<p>The thing you'll actually have decades after the day. Worth investing in a photographer whose work you've physically seen and like.</p>
+
+<h3>Attire (~8%)</h3>
+<p>Dress / suit / tux + alterations + accessories. Alterations can run $300–$800; budget for them.</p>
+
+<h3>Flowers + decor (~8%)</h3>
+<p>Bouquets, boutonnières, ceremony arrangements, centerpieces, signage. The biggest variable expense — flowers can be $1,500 or $15,000 for the same wedding depending on choices.</p>
+
+<h3>Entertainment (~8%)</h3>
+<p>DJ or live band + ceremony music. Live bands run 2–4× the cost of a DJ. Both can deliver a great party.</p>
+
+<h3>Rings (~3%)</h3>
+<p>Wedding bands. (Engagement ring is typically purchased before wedding planning starts and isn't part of the wedding budget.)</p>
+
+<h3>Stationery (~2%)</h3>
+<p>Save-the-dates, invitations, programs, menus, place cards, thank you cards.</p>
+
+<h3>Hair + makeup (~2%)</h3>
+<p>For the couple and (sometimes) the wedding party. Trial sessions add to the cost.</p>
+
+<h3>Transportation (~1%)</h3>
+<p>Limo / shuttle / vintage car for the couple and/or guest shuttles.</p>
+
+<h3>Officiant + license (~1%)</h3>
+<p>Officiant fee + marriage license + (optional) ceremony program designer.</p>
+
+<h3>Buffer / miscellaneous (~5%)</h3>
+<p>Alterations, weather contingency, last-minute additions, tips, gifts for parents/wedding party. Always include this — real weddings always have surprises.</p>
+
+<h2>What this calculator doesn't do</h2>
+<p>It's a starting-point breakdown. It doesn't:</p>
+<ul>
+<li>Track your actual spending vs budget over time</li>
+<li>Manage vendor contracts, deposits, or payment schedules</li>
+<li>Build your guest list, RSVPs, or seating chart</li>
+<li>Plan the timeline of the day</li>
+<li>Track which vendors you've contacted</li>
+</ul>
+<p>For the full plan, that's what WeddingDay does — on your phone, with no vendor spam, no account, no data leaving your device.</p>
+
+<h2>What WeddingDay (the iOS app) adds</h2>
+<ul>
+<li>Full budget tracker with line-item actuals vs estimates</li>
+<li>Vendor contact + contract + deposit tracking</li>
+<li>Guest list + RSVPs + dietary restrictions</li>
+<li>Day-of timeline builder</li>
+<li>To-do list with timing milestones (12 months out → day-of)</li>
+<li>All on-device — no account, no email harvesting, no vendor spam</li>
+<li>$9.99 one-time, no subscription</li>
+</ul>
+
+<h2>FAQ</h2>
+<div class="faq"><strong>What's the average wedding cost?</strong>US averages have ranged roughly $28K–$35K in recent years with massive regional variance. The average isn't a target — your number is the right number.</div>
+<div class="faq"><strong>How much should I budget per guest?</strong>For venue + catering combined, $80–$200/guest is typical, with high-end coastal cities running $250–$400/guest. Use the calculator above to see what your per-guest spend would be.</div>
+<div class="faq"><strong>Should I include a buffer?</strong>Yes — 5–10% for surprises. Real weddings always run over the initial estimate.</div>
+<div class="faq"><strong>What gets cut first if I'm over budget?</strong>Most planners recommend cutting flowers, stationery, and entertainment in that order — they have the biggest range between cheap and expensive. Photography is usually the wrong thing to cut (you keep the photos forever).</div>
+<div class="faq"><strong>Does this save my budget?</strong>No — refresh and it's gone. WeddingDay (the app) saves everything locally on your phone.</div>
+
+<h2>Get WeddingDay</h2>
+<p><a class="cta" href="https://apps.apple.com/us/app/weddingday-planner-and-budget/id6760993416">📱 App Store — $9.99 one-time</a></p>
+
+<div class="footer">© 2026 Chris Busbin. Educational tool, not financial advice. Wedding budget percentages are commonly-cited industry starting points — adjust to your priorities. <a href="/promptforge-support/weddingday/">Back to WeddingDay</a> · <a href="/promptforge-support/weddingday/no-vendor-spam/">No Vendor Spam</a> · <a href="/promptforge-support/apps.html">All apps</a></div>
+
+<script>
+var cats = [
+  {n:"Venue + catering",p:0.48},
+  {n:"Photography + video",p:0.10},
+  {n:"Attire + alterations",p:0.08},
+  {n:"Flowers + decor",p:0.08},
+  {n:"Entertainment (DJ/band)",p:0.08},
+  {n:"Rings",p:0.03},
+  {n:"Stationery",p:0.02},
+  {n:"Hair + makeup",p:0.02},
+  {n:"Transportation",p:0.01},
+  {n:"Officiant + license",p:0.01},
+  {n:"Buffer / misc",p:0.09}
+];
+function recalc(){
+  var b = parseFloat(document.getElementById('budget').value) || 0;
+  var g = parseFloat(document.getElementById('guests').value) || 0;
+  var rows = "";
+  var total = 0;
+  cats.forEach(function(c){
+    var amt = b * c.p;
+    total += amt;
+    rows += "<tr><td>"+c.n+"</td><td>"+(c.p*100).toFixed(0)+"%</td><td>$"+amt.toLocaleString(undefined,{maximumFractionDigits:0})+"</td></tr>";
+  });
+  rows += "<tr class='tot'><td>Total</td><td>100%</td><td>$"+total.toLocaleString(undefined,{maximumFractionDigits:0})+"</td></tr>";
+  document.getElementById('rows').innerHTML = rows;
+  var venueCater = b * 0.48;
+  document.getElementById('perguest').textContent = g > 0 ? Math.round(venueCater/g).toLocaleString() : '—';
+}
+['budget','guests'].forEach(function(id){document.getElementById(id).addEventListener('input', recalc);});
+recalc();
+</script>
+</body>
+</html>
