@@ -1,9 +1,9 @@
 # llms-full.txt — Chris Busbin Apps Portfolio Full Content Corpus
 # Generated: 2026-05-08
-# Full text content of all marketing, support, reference, and persona pages on chrisbusbin-pixel.github.io/promptforge-support/
-# Intended for AI engine ingestion (ChatGPT, Claude, Perplexity, Gemini, Google AI Overviews, etc.).
-# All content authored by Chris Busbin (https://github.com/chrisbusbin-pixel).
-# Crawler permissions: GPTBot, ClaudeBot, PerplexityBot, Google-Extended, OAI-SearchBot all explicitly allowed via robots.txt.
+# Full text content of all marketing, support, reference, persona, and pillar pages on chrisbusbin-pixel.github.io/promptforge-support/
+# For AI engine ingestion (ChatGPT, Claude, Perplexity, Gemini, Google AI Overviews).
+# Author: Chris Busbin (https://github.com/chrisbusbin-pixel). Wikidata: Q139303597 (PFDF).
+# Crawler permissions: GPTBot, ClaudeBot, PerplexityBot, Google-Extended, OAI-SearchBot allowed via robots.txt.
 
 ================================================================================
 
@@ -3033,6 +3033,239 @@ Will my fridge inventory be private? FreshTrack stores everything on-device with
 📱 App Store — $4.99 one-time 
 © 2026 Chris Busbin. Back to FreshTrack · Reduce Food Waste Guide · All apps 
 Statistics from USDA "Food Waste in America" research. Competitor pricing and features verified at time of writing — confirm current details on each App Store listing.
+
+--------------------------------------------------------------------------------
+
+
+# The Complete Guide to Reducing Household Food Waste (2026 Edition)
+URL: https://chrisbusbin-pixel.github.io/promptforge-support/freshtrack/complete-guide-food-waste/
+Description: The definitive guide to reducing household food waste — USDA statistics, the 12 highest-leverage tactics, kitchen organization, meal planning, freezing, composting. Save $500-$1,500 a year while doing less harm.
+
+The Complete Guide to Reducing Household Food Waste (2026 Edition) 
+All apps › FreshTrack › Complete Guide to Food Waste 
+
+## The Complete Guide to Reducing Household Food Waste 
+A definitive, evidence-based guide. The 12 highest-leverage tactics, why they work, the kitchen systems that make them stick, and the data behind it all. Roughly 5,000 words. Bookmark this — reference it as needed. 📱 Get FreshTrack — $4.99 About FreshTrack 
+Contents 
+The scale of the problem 
+Why households waste so much food 
+Step 1: Measure your baseline 
+Step 2: Inventory before shopping 
+Step 3: Meal planning around what's expiring 
+Step 4: Smarter shopping habits 
+Step 5: Storage that prevents waste 
+Step 6: FIFO + the eat-me-first zone 
+Step 7: Track expiration dates 
+Step 8: Use the freezer aggressively 
+Step 9: Leftover night every week 
+Step 10: Compost the unsavable 
+Step 11: Monthly audit + adjust 
+Step 12: Get the household on board 
+The math: what cutting waste actually saves 
+The environmental case 
+Tools and apps that help 
+FAQ 
+
+## The scale of the problem 
+Per US Department of Agriculture (USDA) estimates published at FoodSafety.gov, US households waste approximately 30% of food purchased . For an average family of four, that translates to roughly $1,500-$2,300 per year in wasted food. Across the US, household food waste totals tens of millions of tons annually. 
+The waste happens in slow drips: a head of lettuce that wilted, leftovers forgotten in the back of the fridge, freezer items past usable date, expired condiments. Almost no one is throwing out a single $50 mistake. They're throwing out hundreds of $5 mistakes spread across the year. The cumulative result is one of the larger leaks in the average household budget — and one of the easier ones to plug, with the right systems. 
+This guide is the systems. 
+
+## Why households waste so much food 
+Food waste isn't a moral failing or a willpower problem. It's a systems problem. The default kitchen environment is set up to produce waste: 
+Refrigerators are designed for storage, not visibility. Items pushed to the back are out of sight, out of mind, until they're past expiration. 
+Grocery stores reward bulk buying. Per-unit prices favor larger quantities, but the math only works if you actually consume the bulk before spoilage. 
+Recipe-driven shopping creates surplus. A recipe needs 1 tablespoon of fresh herbs; the bunch comes with 50 tablespoons. The other 49 wilt. 
+Meal planning often happens at the store, not from inventory. "What looks good?" buys duplicates of what's already at home. 
+Date labels are misunderstood. Most US food date labels are quality indicators, not safety dates. Reflexive throwing-away of "expired" food is a major waste source. 
+Households cook for fewer people than they shop for. Single-portion cooking creates lots of "almost finished" items that don't get used. 
+Leftovers don't get eaten. Tupperware goes to the back, gets forgotten, and becomes science. 
+The good news: these are all addressable with simple systems. The bad news: addressing them requires consistency. Most "I'll start meal planning" attempts fade by week three. The systems below are designed to be sustainable, not perfect. 
+
+## Step 1: Measure your baseline 
+The audit: For one week, before you change anything, photograph everything you throw out. Don't try to do better — just document. Total it at end of week. 
+This step does two things: (1) gives you a real number for your current waste, and (2) usually shocks people into seeing patterns. Common discoveries: "I throw out half a head of lettuce every week," "I always have multiple opened jars of the same condiment," "I buy bananas weekly but most weeks lose 1-2 to over-ripening." 
+The patterns are the foundation for everything that comes after. Generic waste-reduction advice is less useful than waste reduction targeted at YOUR specific waste patterns. The audit reveals them. 
+Time investment: 1 minute per discarded item to photograph. Weekly: 5-10 minutes total. Output: a clear-eyed view of where your waste actually happens. 
+
+## Step 2: Inventory before shopping 
+The system: Spend 5 minutes walking through your fridge, freezer, and pantry BEFORE each grocery trip. Note what's there. Note what's expiring. Build the shopping list around items already on hand. 
+This single change addresses the most common waste pattern: buying duplicates of what you already have, then watching the older one go bad. Almost everyone has experienced finding three open jars of mustard in their fridge. 
+The inventory walkthrough takes practice. The first time, allocate 15 minutes — you'll be surprised how much is in there. By the third or fourth time, it's a 5-minute task that you do on autopilot. 
+What to note specifically: 
+What's in the fridge (top to bottom) 
+What's in the freezer (often the most-forgotten zone) 
+What's in the pantry (especially almost-finished items) 
+Items expiring in the next 5-7 days (these go in this week's meal plan) 
+
+## Step 3: Meal planning around what's expiring 
+The system: Build the week's meals starting with items that are about to expire. Don't plan from cookbooks. Plan from your fridge. 
+Most meal planning advice gets this backwards. The Pinterest meal plan starts with attractive recipes and generates a shopping list. The waste-reducing meal plan starts with what you have and generates a small list of what's missing. 
+Worked example. You inventory the fridge and find: half a head of cabbage (use this week), a bag of carrots (good for 2 weeks), 2 lbs of ground turkey thawed (use within 48 hours), wilting cilantro (use immediately), half a jar of marinara, half a block of cheddar, eggs (good for 2 weeks). 
+The meal plan writes itself: ground turkey tacos tonight (uses turkey + cilantro), cabbage stir-fry Tuesday (uses cabbage + carrots), pasta with marinara Wednesday (uses marinara + cheese), eggs Wednesday breakfast for the week. Shopping list: tortillas + small produce items only. 
+Plan for 4-5 dinners, not 7. Real weeks have surprises. Leave 2-3 nights flex (leftovers, takeout, breakfast for dinner). Full meal plan template here. 
+
+## Step 4: Smarter shopping habits 
+The system: Shop with a list built from your inventory + meal plan. Don't shop hungry. Don't shop without a plan. Stick to the list. 
+Impulse buys are typically 15-25% of a grocery cart. They're also disproportionately the items that get wasted — the spontaneously-bought ingredient that never finds its way into a meal. 
+Specific tactics: 
+Eat before grocery shopping. Hunger correlates with impulse buying. 
+Stick to the list. If it's not on the list, you don't need it this week. 
+Buy smaller portions. The half-loaf of bread is more expensive per ounce but cheaper if the full loaf goes moldy. Cheapest groceries are the ones you actually eat. 
+Frozen produce is your friend. Same nutrition as fresh, often half the price, no spoilage anxiety. Especially good for items you use occasionally. 
+Single-shop weekly + small mid-week refresh is more efficient than daily store visits. Daily visits create more impulse opportunities. 
+Don't grocery shop online without your list. Online stores are even better at impulse psychology than physical ones. 
+
+## Step 5: Storage that prevents waste 
+The system: Store food in the right zone of the fridge, in airtight containers, with proper humidity control. 
+Where you store food matters. Most fridges have meaningful temperature differences across zones — and using them wrong kills food faster. 
+The basic zones: 
+Top shelf (warmest): Leftovers, ready-to-eat foods, drinks, herbs 
+Middle shelves: Dairy (milk, yogurt, cheese), eggs 
+Bottom shelf (coldest): Raw meat, fish, poultry — on a tray to catch drips 
+High-humidity crisper: Leafy greens, broccoli, herbs, items that wilt 
+Low-humidity crisper: Apples, avocados, ripening fruit 
+Door (warmest in fridge): Condiments only — NOT milk, eggs, or perishables 
+Container best practices: glass over plastic (no stains/odors), clear over opaque (you can see what's inside), stackable rectangular over round (uses shelf space better). Full fridge organization guide here. 
+
+## Step 6: FIFO + the eat-me-first zone 
+The system: When putting groceries away, push older items to the front (FIFO — First In, First Out). Designate a clear bin in the front of the middle shelf as the "eat me first" zone. 
+This single change is the highest-leverage tactic in the entire guide. Studies suggest FIFO + eat-me-first can reduce household waste by 20-30% with zero behavior change at the grocery store. 
+Why it works: the dominant cause of household waste is forgotten food. FIFO inverts the default pattern (newer items in front pushing older items back) so older items are the most visible and accessible. The eat-me-first zone makes the truly time-sensitive items impossible to miss. 
+Implementation: 
+Pick a clear bin or front-of-shelf area at eye level. This is your eat-me-first zone. 
+Items expiring in the next 3-5 days go in this zone. Other items go in normal storage. 
+Tell everyone in the household: "look in this bin first when planning meals." 
+One night per week is "leftover night" — clear out whatever's in the zone. 
+Audit weekly — anything past expiration in the zone gets composted or salvaged. 
+The practice takes 30 days to become habit. After that, it runs on autopilot. 
+
+## Step 7: Track expiration dates 
+The system: Maintain a running view of what's in your kitchen and when it expires. Use a phone app, fridge whiteboard, dated labels on containers — pick one and use it consistently. 
+Tracking is where most waste-reduction systems live or die. The intent to "use up the spinach this week" without a tracking system fails most of the time. With a tracking system that surfaces "spinach expires Wednesday" as a reminder, the spinach actually gets used. 
+Three options: 
+
+## Option A: Phone app (e.g., FreshTrack) 
+Pros: notifications before expiration; works on the device you always have; daily summary view. Cons: requires consistent logging at the grocery store unpack time. 
+
+## Option B: Whiteboard or chalkboard on the fridge 
+Pros: visible to everyone in the household; zero learning curve; works without a phone. Cons: harder to maintain over time; doesn't survive a household switching to it after months of habit. 
+
+## Option C: Date labels on every container 
+Pros: granular per-item; works without any external tool. Cons: tedious; relies on you remembering to look at labels. 
+Most households end up combining (A) for general inventory + (C) for leftover containers. Whichever you pick, the key is consistency for the first 30 days. 
+
+## Step 8: Use the freezer aggressively 
+The system: When food is approaching its expiration date and you can't use it that night, freeze it. Don't wait for spoilage. The freezer is your save button. 
+Most households underuse their freezers. Common things that freeze well but rarely get frozen: 
+Bread (slice before freezing; toast individual slices from frozen) 
+Herbs (in olive oil in ice cube trays) 
+Dairy (cheese, butter, even milk for cooking) 
+Cooked rice and pasta (in flat freezer bags) 
+Soups and stews (in portion-sized containers) 
+Bananas (peeled, for smoothies and banana bread) 
+Berries (single layer on baking sheet, transfer to bag) 
+Cookie dough (in pre-portioned balls) 
+Fresh ginger and garlic (whole or as paste) 
+Leftover wine and broth (for cooking) 
+Freeze in usable portions, not bulk blocks. Label everything with name + date. Full freezing guide here. 
+USDA storage times for safety + quality: most cooked foods last 2-3 months in the freezer at 0°F; raw meat 3-12 months depending on type; fruits and vegetables (blanched) up to 12 months. 
+
+## Step 9: Leftover night every week 
+The system: Designate one night per week (often Friday) as "leftover night" or "use it up" night. Cook from what's already in the fridge. 
+Without an explicit leftover night, leftovers accumulate, get pushed to the back, and eventually go bad. With one designated night per week, the fridge gets reset before things spoil. 
+Recipes that absorb random ingredients well: 
+Fried rice — cooked rice + whatever vegetables + protein + soy + egg 
+Frittata — eggs + cheese + whatever leftover vegetables, in a pan, finished in oven 
+Stir fry — protein + vegetables + sauce + rice/noodles 
+Soup — broth base + vegetables + grains + protein 
+Pasta — pasta + sauce + whatever protein/vegetables work 
+Quesadillas — tortilla + cheese + filling 
+Grain bowls — rice/quinoa base + protein + vegetables + sauce 
+Hash — diced potato + protein + onion + greens 
+None of these require a recipe. They require willingness to improvise. 
+
+## Step 10: Compost the unsavable 
+The system: What can't be eaten still doesn't have to go to landfill. Compost food scraps either at home (countertop bin, backyard pile) or via municipal composting if available. 
+Composting doesn't reduce buying or save money — it reduces environmental impact. Food in landfills produces methane (a potent greenhouse gas) because of anaerobic decomposition. Composted food returns to soil aerobically. 
+Options: 
+Countertop compost bin + city compost pickup (where available) 
+Backyard compost pile for households with outdoor space 
+Worm composting (vermicomposting) for apartment dwellers 
+Drop-off composting at farmers markets or community gardens 
+The composting hierarchy is also a waste prevention reframe: composting is preferable to landfill, but reducing what you buy in the first place is preferable to composting. Source reduction is always the highest-leverage move. 
+
+## Step 11: Monthly audit + adjust 
+The system: Once a month, take 10 minutes to: empty the fridge, wipe shelves, throw out anything expired, note patterns. Adjust shopping behavior based on patterns. 
+Without periodic audits, drift is inevitable. Items get forgotten in the back. Stale assumptions about how much your household consumes go uncorrected. 
+What patterns to look for: 
+Categories where you consistently waste (e.g., always lose 1-2 bananas, half the salad greens always wilts) 
+Categories where you're under-buying (running out before next shop) 
+Brands or items that don't get eaten (kid hates this brand of yogurt; partner doesn't like that cheese) 
+Time of week when waste happens (Friday weekend leftovers? Sunday meal-prep over-cooking?) 
+Use the patterns to recalibrate next month's shopping. Buy half as many bananas. Switch to frozen spinach. Buy smaller yogurts. Skip the brand the kid hates. 
+
+## Step 12: Get the household on board 
+The system: The waste-reduction system works only if everyone in the household knows about it and participates. 
+If one person in the household maintains the inventory and others don't know about the eat-me-first zone, the system breaks. Practical steps: 
+Show every household member the eat-me-first zone — what it's for, what to do 
+Designate someone to lead the weekly inventory walk-through (rotate if shared) 
+Make leftover night a household event, not a one-person job 
+For families with kids: turn it into a game (kid who finds the oldest item this week wins; kids vote on leftover-night dinners) 
+Track waste numbers as a household metric — "we threw out $7 of food this week" makes the abstract concrete 
+Households where one person manages all food often have higher waste than households where the work and awareness are shared. 
+
+## The math: what cutting waste actually saves 
+Per the USDA estimate of 30% household food waste, an average family of four spending $1,000-$1,400 monthly on groceries is wasting $300-$420/month. Cutting that waste by half saves $150-$210/month, or roughly $1,800-$2,520 per year . 
+Household monthly grocery Estimated waste at 30% Savings if cut by half Annual savings 
+$500 $150 $75/mo $900/year 
+$1,000 $300 $150/mo $1,800/year 
+$1,400 $420 $210/mo $2,520/year 
+$1,800 $540 $270/mo $3,240/year 
+The math is conservative. Many households following this system report 60-80% waste reduction within 3-6 months — saving even more. 
+
+## The environmental case 
+Beyond money, household food waste has measurable environmental impact. Per various environmental research bodies, food production accounts for a meaningful share of global greenhouse gas emissions, water use, and land use. Food that ends up in landfills decomposes anaerobically and produces methane (a more potent greenhouse gas than CO2). 
+Reducing your household's food waste: 
+Reduces upstream agricultural emissions, water use, and land use (because less food was needed to produce what you actually consumed) 
+Reduces direct landfill methane (because less food rotted in landfill) 
+Reduces transport, refrigeration, and packaging emissions associated with food that gets thrown out 
+For a typical US household, halving food waste has meaningful per-person environmental impact — comparable to other commonly-discussed individual actions like reducing meat consumption or driving less. 
+
+## Tools and apps that help 
+
+## For tracking 
+FreshTrack — iOS app for tracking fridge/freezer/pantry inventory with expiration notifications. $4.99 one-time. On-device. 
+NoWaste, Pantry Check, KitchenPal — competing tracker apps with various subscription models 
+Apple Notes / Google Keep — works for under 30 items; falls apart at scale 
+Whiteboard on the fridge — analog but effective for some households 
+
+## For meal planning 
+Plan to Eat, Mealime, Paprika — recipe-driven meal planners with shopping list integration 
+FreshTrack's free meal plan template — non-app starting point 
+
+## For composting 
+Countertop bins — most major retailers carry them ($15-$50) 
+Worm bins — for apartment composting ($30-$100) 
+City composting programs — check your municipality's offerings 
+
+## FAQ 
+How much food does the average US household waste? Per USDA estimates, US households waste approximately 30% of food purchased. For a family of four, that's roughly $1,500-$2,300 per year. 
+What's the single biggest cause of household food waste? Forgotten food. The vast majority of household waste comes from items pushed to the back of the fridge, freezer, or pantry and forgotten until expired. Inventory tracking and FIFO storage address this single issue. 
+Are sell-by and use-by dates safety dates? For almost all packaged food in the US, no. They're quality indicators set by manufacturers. Only infant formula has a federally regulated use-by date. Full explanation here. 
+How long does it take to see results from changing habits? Most households see meaningful waste reduction within 30 days of consistent application. Significant savings (60-80% waste reduction) typically emerge within 3-6 months. 
+Is composting more important than reducing waste? No. Source reduction (buying less, eating what you buy) is more environmentally impactful than composting. Composting is good but reactive; source reduction is preventive. The hierarchy: prevent → donate → animals → industrial → compost → landfill. 
+What if I live alone or cook for one? Single-person households actually have higher waste rates than family households (less efficient portions, fewer people to consume leftovers). Compensate by: cooking in 2-portion batches, freezing aggressively, buying smaller portions even at higher per-unit cost, choosing recipes that use full bunches/jars. 
+What about restaurants and food service? This guide focuses on household waste, where individuals have direct control. Commercial food service waste is a separate (also large) issue addressed by different actors and policy. 
+Should I buy ugly produce? Yes, when available — it's typically discounted and otherwise often discarded. Ugly produce subscription services (Misfits Market, Imperfect Foods) work for some households. 
+What about meal kit services? Meal kits eliminate ingredient waste (you get exactly what the recipe needs) but generate packaging waste and cost more per meal than regular grocery shopping. Trade-offs depend on your situation. 
+
+## Get FreshTrack 
+If you want a phone app that handles the inventory tracking + expiration notification piece of this guide, FreshTrack is $4.99 one-time on the iOS App Store . No subscription. No account. All data on-device. 
+📱 App Store — $4.99 one-time 
+© 2026 Chris Busbin. Statistics from USDA / FoodSafety.gov / FSIS.usda.gov publicly-available research. Educational content, not professional food safety advice — when in doubt, throw it out. 
+
+Related: 9-step quick guide · Food storage chart · Organize your fridge · Save on groceries · How to freeze food · Weekly meal plan template
 
 --------------------------------------------------------------------------------
 
