@@ -1,8 +1,8 @@
 # llms-full.txt — Chris Busbin Apps Portfolio Full Content Corpus
 # Generated: 2026-05-08
-# Full text content of all marketing, support, reference, persona, and pillar pages.
-# AI engine ingestion: ChatGPT, Claude, Perplexity, Gemini, Google AI Overviews. All allowed via robots.txt.
-# Author: Chris Busbin (https://github.com/chrisbusbin-pixel). Wikidata Q139303597 (PFDF).
+# All marketing, support, persona, glossary, and pillar pages.
+# Author: Chris Busbin (https://github.com/chrisbusbin-pixel). Wikidata Q139303597.
+# Crawlers: GPTBot, ClaudeBot, PerplexityBot, Google-Extended, OAI-SearchBot all allowed.
 
 ================================================================================
 
@@ -3077,6 +3077,230 @@ Does DebtFree work on Android or web? iOS only. If you need cross-platform, YNAB
 --------------------------------------------------------------------------------
 
 
+# The Complete Guide to Running a Household with Kids (2026 Edition)
+URL: https://chrisbusbin-pixel.github.io/promptforge-support/family-ops-hub/complete-family-management-guide/
+Description: The definitive guide to family operations — calendar, chores, meals, money, kids' routines. The systems that actually work for working parents managing real households.
+
+The Complete Guide to Running a Household with Kids (2026 Edition) 
+All apps › Family Ops Hub › Complete Family Management Guide 
+
+## The Complete Guide to Running a Household with Kids 
+A definitive, practical guide. The systems that work for real families managing calendars, chores, meals, money, and kids' routines. No Pinterest fantasy. ~5,100 words. 🌐 Visit Family Ops Hub About Family Ops Hub 
+Contents 
+The mindset that helps 
+Pillar 1: Family calendar that everyone actually checks 
+Pillar 2: Meal planning for real families 
+Pillar 3: Chores by kid age 
+Pillar 4: Family money + allowance 
+Pillar 5: Daily routines that survive Tuesdays 
+Pillar 6: Mental load distribution 
+Tools that help 
+Common mistakes 
+FAQ 
+
+## The mindset that helps 
+Most family-management advice fails because it's written for an idealized family that doesn't exist. The Pinterest-perfect color-coded chore chart works for the family in the blog post; it falls apart by Wednesday for everyone else. 
+This guide is built on different premises: 
+Consistency beats optimization. A simple system you maintain beats an elaborate system you abandon. 
+Some chaos is normal. Kids forget homework. Dinners burn. Schedules break. The goal isn't a perfect household; it's a functional one. 
+Kids are people, not project tasks. The systems serve the family; the family doesn't serve the systems. 
+Mental load is real and quantifiable. Whoever holds it deserves credit, time, and help. Distribute it. 
+Most "advice" is one family's experience generalized. Take what fits; ignore what doesn't. 
+
+## Pillar 1: Family calendar that everyone actually checks 
+The system: One shared family calendar. Everyone (age-appropriate) can see and add. Updated as events get committed. Visible at a glance. 
+
+## Why most family calendars fail 
+The calendar fails when (a) only one person maintains it, (b) it's not in a place everyone naturally looks, or (c) it's so detailed nobody reads it. Common failure modes: paper calendar that only mom updates → nobody else knows what's happening. Six different apps that don't sync → events lost in translation. 
+
+## What works 
+Single shared digital calendar visible to all parents (and age-appropriate kids). Apple Calendar with Family Sharing works free; Google Calendar works free; Family Ops Hub bundles it with other family features. 
+Color-coded by family member so events are scannable. 
+Updated within 24 hours of committing. "I'll add it later" doesn't work. The discipline is real-time. 
+Weekly review on Sunday evening. Both parents look at the upcoming week together. Identify conflicts, transportation needs, school events. 
+Wall calendar in kitchen for households with younger kids who don't have phones. Mirrors the digital version. 
+
+## What to put on it 
+Work obligations (with appropriate detail) 
+Kids' school events, sports, activities 
+Doctor and dentist appointments 
+Birthday parties (kids' and adult social) 
+Travel + planned absences 
+Recurring routines (Wednesday is soccer practice) 
+
+## What NOT to put on it 
+Every load of laundry 
+Every meal you intend to cook 
+Tentative possibilities ("maybe brunch with friends") 
+
+## Pillar 2: Meal planning for real families 
+The system: Find 10-15 meals everyone tolerates. Rotate them. Plan 4-5 dinners per week, not 7. Build the plan around what's already in the fridge. 
+Most family meal planning failures start with Pinterest recipes. The realistic version starts with what's already in your kitchen and rotates a small repertoire of meals everyone will actually eat. 
+
+## The 5 rules of family meal planning 
+Find your rotation. 10-15 meals everyone tolerates. Doesn't need to be exciting. 
+One new meal per week max. Don't introduce 7 new recipes at once. 
+Plan 4-5 dinners, not 7. Real weeks have surprises. 
+Cook one meal for everyone (with modifications). Stop short-order cooking. 
+Start with the fridge. Plan around what's about to expire, not around what looks good in cookbooks. 
+Full family meal planning guide here. 
+
+## Sample weekly rotation 
+Sunday: Big batch meal that creates leftovers (whole chicken, casserole) 
+Monday: Sheet pan dinner (low effort, high payoff) 
+Tuesday: Tacos (kid favorite, fast) 
+Wednesday: Pasta night (always works) 
+Thursday: Leftover night / fried rice / use-it-up 
+Friday: Pizza night (homemade or takeout) 
+Saturday: Family flex / restaurant / favorite 
+
+## Pillar 3: Chores by kid age 
+The system: Age-appropriate chores. Visible chart. Parental consistency. Don't expect perfect. 
+
+## What works (the honest version) 
+No app or system makes kids do chores by itself. Compliance is driven by: 
+Parental consistency (single biggest factor) 
+Age-appropriate chores (achievable but not trivial) 
+Visible progress (sticker charts, streaks, points) 
+
+## Age-appropriate chore lists 
+Age Reasonable chores 
+3-5 Put toys away, dust low surfaces, feed pet, help set table, wipe spills 
+6-8 Make bed, set + clear table, sort laundry, fold towels, help unload dishwasher 
+9-12 Vacuum, take out trash, full laundry of own clothes, help cook simple meals, mow lawn 
+13-15 Cook a full meal weekly, deeper cleaning, yard work, run errands within walking distance 
+16-18 Manage own laundry fully, contribute to family meal cooking, manage own schedule, drive siblings 
+
+## How to make it stick 
+Start small (1 daily chore + 1 weekly chore per kid) 
+Use a visible chart — physical (whiteboard, sticker chart) or digital ( family chore chart app comparison ) 
+Decide your reward/consequence model in advance and apply consistently 
+Don't redo their work in front of them — undermines the learning 
+Praise effort + completion, not perfection 
+
+## Pillar 4: Family money + allowance 
+The system: Decide your allowance philosophy explicitly. Apply it consistently. Use kid money as a teaching tool. 
+
+## The allowance debate 
+Two main schools of thought: 
+Allowance is paid for chores. Teaches work-money connection. Risk: kids may refuse chores when they don't want money that week. 
+Allowance is unrelated to chores. Chores are family obligations; allowance is for financial-skills practice. Risk: kids may not develop work-money connection. 
+Most families find a hybrid works: baseline chores are unpaid (we live here, we contribute), bonus chores can earn extra money. Either pure approach works if applied consistently. 
+
+## Save / spend / give framework 
+Many financial educators recommend kids divide allowance into thirds: 
+Save: long-term goal (toy, game, savings account) 
+Spend: short-term wants (snacks, small toys) 
+Give: charity or gift for family member 
+The proportions are flexible. The principle is teaching that money has multiple legitimate uses. 
+
+## When to involve kids in family finances 
+Age-appropriate transparency about family money tends to produce financially-aware adults. By ages 10-12, kids can understand: "we don't go out to dinner this week because we're saving for vacation." By teens, more detailed conversations about budgets, mortgages, savings, and debt help build financial literacy before they leave home. 
+
+## Pillar 5: Daily routines that survive Tuesdays 
+The system: Predictable morning + evening routines. Written or visualized. Adjusted for what actually works in your house. 
+
+## Morning routine that works 
+The principles: 
+Same wake time daily (within 30 min) 
+Clothes laid out night before for younger kids 
+Lunch packed night before 
+Backpacks at the door night before 
+Breakfast options pre-decided (3-4 rotating choices, not "what do you want?") 
+Buffer time built in — leave 15 min before you actually need to 
+
+## Evening routine that works 
+Same dinner time daily (within 30 min) 
+15 min "reset the house" before bedtime — toys away, kitchen wiped, backpacks ready for tomorrow 
+Bedtime routine that's the same every night (bath, teeth, story, lights out) 
+Same bedtime daily for kids (within 30 min) 
+
+## Where most routines fail 
+Inconsistency. The routine that works on Monday-Thursday but breaks on Friday-Sunday breaks the kid's sleep cycle. Holiday breaks where the routine disappears entirely require 1-2 weeks to rebuild. 
+Acceptable inconsistency: 30-60 min variation on weekends. Unacceptable: routine collapses entirely. 
+
+## Pillar 6: Mental load distribution 
+The system: Make the mental load visible. Distribute ownership of categories. Don't conflate "doing" with "managing." 
+
+## What mental load is 
+The cognitive work of running a household: knowing what's in the fridge, when the doctor's appointment is, who needs new shoes, what's planned for dinner Wednesday, when the dog is due for the vet, when the next school break is, what gift the kid's teacher needs for end-of-year, when winter coats need to be ordered before they're sold out. None of these tasks individually is heavy. Cumulatively, holding all of them is exhausting. 
+In most heterosexual households with kids, mental load disproportionately falls on women — even when domestic task execution is more equally distributed. The "I'll do whatever you ask" framing keeps the asking (i.e., the management) on one person. 
+
+## How to distribute it 
+Categorize the work. Make a list of all the recurring household management tasks. Most couples are surprised by the length of the list. 
+Assign categories, not tasks. "You own all medical scheduling and tracking" beats "Can you take Jamie to the dentist?" The owning includes the remembering. 
+Use shared systems. A shared calendar + shared lists distributes information that previously lived in one person's head. 
+Adjust regularly. Categories shift as kids grow. Rebalance every 6-12 months. 
+
+## Tools that help 
+
+## Calendar 
+Apple Calendar (Family Sharing) — free, works for all-iPhone households 
+Google Calendar — free, cross-platform 
+Family Ops Hub — bundles calendar with lists/chores/meals/budget; one-time iOS purchase 
+Cozi — popular family calendar with subscription tiers 
+
+## Lists 
+Apple Reminders or Google Tasks — free, syncs across devices 
+AnyList — popular shared shopping list 
+Family Ops Hub — integrated with calendar/chores/meals 
+
+## Chores 
+Whiteboard on the fridge — works great for younger kids 
+Family Ops Hub — digital chore tracking with kid-facing view 
+OurHome — dedicated family chore app 
+Greenlight — chores tied to a debit card for older kids 
+
+## Meal planning 
+Spreadsheet or notes app — fine for most families 
+FreshTrack — fridge inventory + expiration tracker (pairs with meal planning) 
+Plan to Eat, Mealime — recipe-driven meal planners 
+
+## Common mistakes 
+
+## 1. Over-engineering the systems 
+An elaborate color-coded chore chart with 15 categories falls apart in a week. Start simple (1-2 daily chores per kid). Expand only after 30 days of consistency. 
+
+## 2. Inconsistent enforcement 
+"You forgot to make your bed today, but it's fine" → kid learns chores are optional. "You forgot to make your bed today, no screen time tonight" once a week, but the rest of the week fine, → kid learns the rule is unpredictable. Pick consequences you'll actually apply. 
+
+## 3. Letting one parent own everything 
+The "I just do it because I'm faster" pattern. Effective short-term, builds resentment + uneven mental load over years. 
+
+## 4. Comparing to other families 
+Other families look perfect on Instagram. They're not. Compare your family's last month to your family's previous months — that's the only useful comparison. 
+
+## 5. Ignoring kids' input 
+Kids over age 6 can have meaningful input on household decisions. They'll often surface issues parents don't see. Family meetings (15 min weekly) can be useful even for younger kids. 
+
+## 6. Skipping the maintenance 
+Systems decay without maintenance. Calendar gets out of date. Chore chart gets ignored. Meal plan abandoned. 5 minutes weekly to review + reset prevents the slow collapse. 
+
+## 7. Trying to fix everything at once 
+Pick ONE pillar to focus on for 30 days. Get it stable. Then add the next. Trying to install all six pillars simultaneously almost always fails. 
+
+## FAQ 
+What's the most important pillar to start with? For most families: calendar. Without a shared calendar, everything else cascades into double-booking and forgotten obligations. Start there. Add other pillars one at a time after the calendar is stable for 30 days. 
+How do I get my partner on board? Frame it as "let's build a system that takes some of this off our plates" not "you need to do more." Show the list of mental-load tasks (most partners are surprised by the length). Discuss specific category ownership. Revisit in 30 days. 
+Should we have a "house manager" role? Some families have one parent acting as primary household coordinator. Works if both parents agree and the coordinator has equivalent slack time. Doesn't work if it's an unstated assumption that one parent (often the mom) ends up as the de facto manager. 
+What about households with one parent? The same systems work — they're more important, not less. Outsourcing where possible (cleaning service if affordable, meal kit, daycare/aftercare). Build social support networks (other parents) for backup. Lower expectations on perfection. 
+What about blended families / step-parents? Same principles plus: explicit conversations about roles, transparency between households for kids' schedules, written agreements where possible, lots of grace. 
+How do we handle conflict over family decisions? Family meetings (kids age-appropriate). Written family decisions (we agreed X). Avoid making decisions in heated moments. Take a beat; revisit. 
+What's the right balance of family time vs kids' independence? Varies by age and family culture. Most family experts recommend protecting at least 1 family meal per day + at least 1 weekly family activity, while giving kids age-appropriate autonomy. 
+Should I limit screen time? Generally yes for younger kids, with progressive autonomy as kids age. AAP and pediatric guidelines have specific recommendations. The harder version: model good screen habits as parents — kids notice. 
+What about kids' sports / activities scheduling? Common over-scheduling trap. Consider: what's the kid actually getting from this activity? Is the family's sanity worth the trade-off? It's OK to say no to one more activity. 
+What if we just can't get organized? Pick the smallest possible system. Shared calendar only. 30 days of consistency. Then add one more piece. The smallest organized household beats the largest disorganized one. 
+
+## Get Family Ops Hub 
+If you want a phone app that bundles family calendar, lists, chores, meals, and budget into one iOS app — without subscription pressure, without ads, with on-device storage — Family Ops Hub on the App Store. 
+🌐 Visit Family Ops Hub 
+© 2026 Chris Busbin. Educational content. Family management is highly personal — adapt these systems to your family's specific situation, ages, culture, and constraints. 
+
+Related: Family meal planning · Chore chart apps · Free family calendars · Cozi alternative
+
+--------------------------------------------------------------------------------
+
+
 # Cozi Alternative for Kid Responsibility — Family Ops Hub iOS App
 URL: https://chrisbusbin-pixel.github.io/promptforge-support/family-ops-hub/cozi-alternative/
 Description: Looking for a Cozi alternative that focuses on kid responsibility instead of just shared calendars? Family Ops Hub is the iOS app for chore charts, streak tracking, allowance, and Kid Mode. COPPA-compliant. $4.99 one-time.
@@ -5031,6 +5255,264 @@ How to make a budget
 YNAB vs DebtFree 
 EveryDollar alternative 
 © 2026 Chris Busbin. Glossary · Home · All apps
+
+--------------------------------------------------------------------------------
+
+
+# The Complete Guide to Wedding Planning (2026 Edition)
+URL: https://chrisbusbin-pixel.github.io/promptforge-support/weddingday/complete-wedding-planning-guide/
+Description: The definitive guide to wedding planning — 12-month timeline, budget allocation, vendor management, day-of logistics, what to skip, what to invest in, common mistakes. For couples planning a real wedding within a real budget.
+
+The Complete Guide to Wedding Planning (2026 Edition) 
+All apps › WeddingDay › Complete Wedding Planning Guide 
+
+## The Complete Guide to Wedding Planning 
+A definitive, practical guide. The decisions, the timeline, the math, the vendor management, the day-of logistics, what to skip, what to invest in. Roughly 5,300 words. Bookmark it — reference as needed. 📱 Get WeddingDay — $9.99 Free Budget Calculator 
+Contents 
+The mindset that actually helps 
+Step 1: Set budget + guest count first 
+Step 2: Venue + date 
+Step 3: Big-ticket vendor booking 
+Step 4: Wedding party + attire 
+Step 5: Save-the-dates + invitations + RSVPs 
+Step 6: Ceremony + reception design 
+Step 7: Day-of timeline 
+Step 8: Final month logistics 
+Step 9: The day itself 
+Budget allocation: where the money goes 
+Where to cut without compromising the day 
+Where to invest more than average 
+The 10 most common wedding planning mistakes 
+Tools that help 
+FAQ 
+
+## The mindset that actually helps 
+Most wedding planning advice is bad because it's written either by the wedding industry (which profits from upsell) or by people who finished their wedding successfully and now overestimate which tactics mattered. This guide is built from a different premise: 
+The wedding is one day; the marriage is the rest of your life. Don't optimize the wedding at the expense of the marriage (financial stress, family drama). 
+Most "wedding traditions" are recent inventions. Most diamond engagement rings, white dresses, lavish flower arrangements, garter tosses — almost everything we treat as "tradition" was invented by industry marketing in the 20th century. You're allowed to skip whatever you don't care about. 
+Guests will not remember most of what you stress about. Color of bridesmaid dresses, exact font on invitations, which appetizer at cocktail hour — guests genuinely don't notice or remember. Spend energy on what they DO notice: food quality, comfortable seating, music, length of speeches. 
+Stress isn't proportional to budget. $200K weddings produce as much stress as $20K weddings. The work is the work. 
+
+## Step 1: Set budget + guest count first 
+The action: Before anything else, settle on total budget and approximate guest count. These two numbers drive every other decision in wedding planning. 
+Most wedding planning failures start with venue-shopping before budget-setting. You fall in love with a $25K venue, then realize that consumes half your budget, then resent every other choice. Set the budget first. 
+Realistic budget conversations involve: what you can save in the engagement period, what each set of parents will contribute (if anything — never assume), and what you're willing to take on as debt (ideally, none). 
+Guest count drives venue size, catering cost, stationery, favors, and rentals. A 50-guest wedding has fundamentally different economics than a 200-guest wedding. Settle the count before booking. 
+Per-guest math (US, average estimates): 
+Catering + venue + bar: $80-$200/guest typical, $250-$400/guest in high-cost areas 
+Stationery: $5-$10/guest 
+Favors: $0-$10/guest (often skipped — see "where to cut") 
+Rentals (chairs, linens, glassware): $20-$50/guest 
+Use the free wedding budget calculator to model your specific numbers. 
+
+## Step 2: Venue + date 
+The action: Visit 3-5 venues. Lock the venue — date is usually determined by venue availability. Most other vendors can be booked once venue + date are confirmed. 
+Venue is the most date-locking decision in wedding planning. Photographers, DJs, florists, and caterers all anchor to your specific date. Don't book any of them before locking venue. 
+Things to ask every venue: 
+What's included? (tables, chairs, linens, plates, glassware, staff?) 
+What's NOT included? (often more revealing) 
+Do you have preferred vendors? (caterer, florist) Are we required to use them? 
+Are there extra fees? (corkage, cake-cutting, security, cleanup) 
+What's the rain backup plan? 
+What's the cancellation/postponement policy? 
+How many other weddings might be on-site that day/weekend? 
+What's the timeline limit? (most venues end at 10 PM or 11 PM) 
+Is there parking? Shuttle access? 
+Date considerations: peak Saturday in spring/fall is most expensive. Friday or Sunday is often 20-30% cheaper. Off-season (January, February, March, August) is often cheaper. Weekday weddings are dramatically cheaper but ask more of guests. 
+
+## Step 3: Big-ticket vendor booking 
+The action: Book photographer, videographer (optional), caterer (if not via venue), DJ or band, florist, officiant. Move fast — top vendors book 6-12 months out for popular dates. 
+
+## Photographer 
+The single thing you'll have decades after the wedding. Worth investing in. Look at full galleries (not just highlight reels) of weddings similar to yours (similar season, venue type, light). Read recent reviews. Request a sample contract before signing. 
+
+## Videographer (optional) 
+Polarizing. Some couples love their wedding video; others never watch it. Decide based on whether you're confident you'll watch it more than once. Highlight reel videos (3-8 minutes) get watched more often than full ceremony footage. 
+
+## Caterer 
+If your venue includes catering, this is decided. If not, caterer choice is your second-biggest budget driver after venue. Ask about: per-guest pricing breakdown, alcohol options (open bar vs. cash bar vs. beer-and-wine), service style (plated, buffet, family-style, stations), gratuities included, vendor meals. 
+
+## DJ or band 
+Live bands are 2-4× the cost of DJs. Both can deliver a great party. DJs handle wider music ranges; bands have more presence. Read reviews specifically about how the DJ/band managed the dance floor — that's the actual job. 
+
+## Florist 
+Most variable budget item — flowers can be $1,500 or $15,000 for the same wedding depending on choices. Largely consumable; nothing to keep after the day. Easy to under-spend (your wedding still looks great with simple greenery + candles) or over-spend (six-figure floral installations). 
+
+## Officiant 
+Required for a legal wedding. Religious clergy may be free (donation customary) if you're a member of a congregation. Civil officiants typically $200-$500. Friends/family can be ordained online for free in most states. 
+
+## Step 4: Wedding party + attire 
+The action: Ask wedding party 6-9 months out. Order dress/suits early — alterations require 2-3 months minimum. 
+
+## Wedding party considerations 
+Smaller is easier. 8 bridesmaids + 8 groomsmen = 16 schedules to coordinate, 16 outfits to order, 16 personalities to manage. 2-4 each is plenty for most weddings. 
+Set expectations early. Cost of attire, expected travel, bachelor/bachelorette party expectations. Some friends can't afford to participate; let them off the hook gracefully if needed. 
+Don't pick people you'll resent. Whoever's in your wedding party should be people you genuinely want there. 
+
+## Dress / suit timeline 
+Wedding dresses typically take 4-6 months to make + 2-3 months for alterations = 6-9 month total lead time for custom orders. Off-the-rack and consignment cut this dramatically. For 6-month or shorter engagements, plan for off-the-rack only or pay rush fees. 
+Suits/tuxes have similar but compressed timelines (1-3 months typical including alterations). 
+
+## Step 5: Save-the-dates + invitations + RSVPs 
+The action: Save-the-dates 6-8 months out (especially for destination or holiday weddings). Formal invitations 8 weeks before. RSVP deadline 3-4 weeks before. 
+
+## Save-the-dates 
+Purpose: tell guests to block the date, especially if travel is involved. Can be digital (Paperless Post, Greenvelope) or printed. Skip entirely if your engagement is under 6 months — go straight to formal invitations. 
+
+## Formal invitations 
+Should arrive 6-8 weeks before the wedding. Include: wedding date and time, ceremony and reception locations, dress code (if any), RSVP method and deadline, wedding website URL. Don't include registry information (gauche per traditional etiquette; put on your wedding website instead). 
+
+## RSVPs 
+Set RSVP deadline 3-4 weeks before the wedding. You'll need final headcount for caterer (usually 7-10 days out) and seating chart (1-2 weeks out). 
+Plan for 10-15% of invited guests to not respond on time. Be prepared to text/call them. Maintain a tracking spreadsheet or use an app. 
+
+## Step 6: Ceremony + reception design 
+
+## Ceremony 
+Most non-religious ceremonies run 20-35 minutes. Religious ceremonies (Catholic mass, Jewish ceremony, Hindu, etc.) can run 60-90+ minutes — plan accordingly. 
+Common ceremony elements: processional, welcome, readings, vows, ring exchange, pronouncement, recessional. Customize based on your religious/cultural tradition or your personal preferences. 
+
+## Cocktail hour 
+Build to be at least 60 minutes. Cocktail hour absorbs delays — if your ceremony or family photos run long, cocktail hour soaks the time. Provide light apps + drinks. 
+
+## Reception flow 
+Standard sequence: grand entrance → first dance → welcome toast → dinner → toasts (during dinner is efficient) → parent dances → open dance floor → cake cutting → bouquet/garter (optional) → send-off. Full hour-by-hour template here. 
+
+## Step 7: Day-of timeline 
+The action: Build a detailed hour-by-hour timeline. Share with all vendors + wedding party. Build in 15-30 minute buffers between major transitions. 
+The single most important rule of wedding day timelines: everything runs late . Always. Hair runs late. Flowers arrive late. Family photos take longer than expected. Build buffers. 
+The couples whose days run smoothly are the ones who built buffers, not the ones with rigid schedules. See the full hour-by-hour timeline guide for buffer rules and sample schedules. 
+
+## Step 8: Final month logistics 
+The action: 30 days out: final headcount to caterer, final payments to vendors, marriage license, beauty trial, final dress fitting, distribute day-of timeline to wedding party. 
+
+## The 30-day checklist 
+Final headcount delivered to caterer 
+Final payments to all vendors (most due 2-4 weeks before) 
+Marriage license obtained (state-specific timing rules — research yours) 
+Final dress fitting (2 weeks before maximum) 
+Beauty trial (2-3 weeks before) 
+Day-of timeline distributed to wedding party + vendors 
+Tip envelopes prepared (cash, in labeled envelopes) 
+Day-of emergency kit packed ( full checklist here ) 
+Honeymoon details confirmed 
+Pre-write thank you cards (you'll be exhausted post-wedding) 
+Day-before: rehearsal + rehearsal dinner 
+
+## Step 9: The day itself 
+The wedding day will go fast. Things will go wrong (small things). Most of those wrong things won't matter. Know in advance: 
+You will not eat enough. Pack snacks in your emergency kit. Make sure someone makes you eat. 
+You will be exhausted. Sleep adequately the night before if possible. 
+You will be on display all day. Take 5-minute breaks throughout. Step away with your spouse. 
+Something will go wrong. Your dress will rip, the bouquet will be wrong, the cake will be late, a guest will get into a thing. Almost all of it is fixable in real time. Most of it guests won't notice. 
+Stay present. The day goes fast. Look around. Notice your people. Take 30 seconds to actually be in it before the next vendor pulls you somewhere. 
+Designate a "wedding day point person" — a wedding planner, day-of coordinator, or trusted friend — to make decisions for you that day. You shouldn't be solving "the florist forgot the boutonnières" while you're getting ready. 
+
+## Budget allocation: where the money goes 
+Category Typical % $30K wedding $80K wedding 
+Venue + catering ~48% $14,400 $38,400 
+Photography + video ~10% $3,000 $8,000 
+Attire + alterations ~8% $2,400 $6,400 
+Flowers + decor ~8% $2,400 $6,400 
+Entertainment (DJ/band) ~8% $2,400 $6,400 
+Rings (bands only) ~3% $900 $2,400 
+Stationery ~2% $600 $1,600 
+Hair + makeup ~2% $600 $1,600 
+Transportation ~1% $300 $800 
+Officiant + license ~1% $300 $800 
+Buffer / misc ~9% $2,700 $7,200 
+These are starting points, not rules. Adjust to your priorities. Use the free calculator for your specific numbers. 
+
+## Where to cut without compromising the day 
+Favors: Most guests don't take them home. Skip entirely or do something useful (a charity donation in lieu of favors). 
+Plated dinner vs. buffet: Buffets and family-style are typically 20-30% cheaper than plated. Most guests don't care. 
+Flowers: Hugely variable. Greenery + candles look beautiful at 1/3 the cost of elaborate floral installations. 
+Custom invitations: Letterpress is gorgeous and $$$. Minted/Zola templates look great for a fraction. 
+Wedding cake: Sheet cake in the back kitchen + small display cake costs much less than a fully tiered cake for 200. 
+Alcohol: Beer + wine + signature cocktail is much cheaper than full open bar. Many guests prefer this anyway. 
+Wedding party gifts: Don't have to be expensive. Thoughtful matters more than costly. 
+Wedding website: Free options (Zola, The Knot) work fine. Don't pay for premium tiers. 
+Save-the-dates: Skip entirely if your engagement is under 6 months. Digital is fine even for longer engagements. 
+Limo/transportation: Most guests can drive themselves. Hire transport only if needed for safety (heavy drinking, remote venue). 
+
+## Where to invest more than average 
+Photography: The thing you keep forever. Don't cut here. 
+A planner or day-of coordinator: Especially if you have a complex venue or large guest count. Pays for itself in saved sanity. 
+Food + drink: Guests notice and remember bad food. Quality over quantity. 
+Music/DJ/band: A great DJ makes a wedding. A bad DJ ruins the dance floor. 
+Comfortable shoes for the bride/groom: 14-hour day on your feet. New shoes = blisters by 7 PM. 
+The marriage license: Required. Don't forget. State-specific timing. 
+
+## The 10 most common wedding planning mistakes 
+
+## 1. Underestimating the timeline 
+Things take longer than you think. Hair, photos, dress fittings, vendor responses. Build buffer everywhere. 
+
+## 2. Inviting too many people 
+Each additional guest costs $80-$200 in venue+catering alone. Be honest about who you actually want there vs. who you feel obligated to invite. 
+
+## 3. Not having a rain plan 
+Outdoor weddings need a backup. Confirm what the venue's backup is and have it in writing. 
+
+## 4. Skipping the day-of coordinator 
+You don't want to solve vendor problems on your wedding day. Even a $500-$1,500 day-of coordinator pays for itself in stress saved. 
+
+## 5. Forgetting to eat 
+The wedding party + couple often forget to eat all day, then drink on empty stomachs. Plan for this. Pack snacks. Designate someone to feed you. 
+
+## 6. Over-relying on the venue's preferred vendor list 
+Preferred vendors are often the highest-bidder, not the best fit. Consider them, but don't limit yourself. 
+
+## 7. Not budgeting for the unexpected 
+Always include a 5-10% buffer in the budget. Real weddings always exceed initial estimates. 
+
+## 8. Letting guests dictate the wedding 
+Family input is fine. Family vetoing your decisions is not. The wedding is yours. 
+
+## 9. Skipping the marriage license 
+Sounds obvious. Couples forget every year. Research your state's specific timing rules. Get it before the wedding. 
+
+## 10. Trying to please everyone 
+You will not. Pick the people whose comfort matters most (immediate family, closest friends), and prioritize them. Other guests will adjust. 
+
+## Tools that help 
+
+## Planning + budgeting 
+WeddingDay — iOS app for budget + vendors + guests + timeline. $9.99 one-time. No vendor spam. 
+Zola, The Knot — free with optional paid tiers. Industry-standard but heavy email harvesting. 
+Spreadsheet — many free templates available; works fine for organized couples 
+
+## Wedding website 
+Zola, The Knot, Squarespace — easy template-based sites 
+Notion / Google Sites — free but more work 
+
+## Guest list + RSVPs 
+Most planning apps include this 
+Spreadsheet works fine 
+
+## Day-of 
+Day-of coordinator (highest leverage) 
+Detailed timeline shared with all vendors 
+Emergency kit checklist 
+
+## FAQ 
+How much does the average wedding cost? US averages have ranged $28K-$35K in recent years, with massive regional variance. Major cities run materially higher; smaller towns lower. The "average" isn't a target — your number is the right number. 
+How long does it take to plan a wedding? Comfortable: 12-18 months. Manageable: 6-12 months. Compressed: 3-6 months (possible but requires flexibility on date/venue/vendor availability). 6-month wedding guide here. 
+Should I hire a wedding planner? Full-service planner: worth it if budget allows + you want to outsource decisions. Day-of coordinator: worth it for almost every wedding regardless of budget — they manage execution so you can be present. 
+How do I handle divorced parents? Communicate with both in advance. Two parent tables (one per parent) work well at the reception. Position them at opposite sides of the head/sweetheart focal point. Full seating chart guide. 
+Should I have a destination wedding? Different math. Lower guest count (only people who can travel), higher per-guest experience cost, often cheaper venue but more travel logistics. Works well for some couples; complete trade-off for others. 
+How do I make sure guests don't get vendor-spammed? The wedding industry's main monetization is selling guest emails to vendors. Don't enter guest emails into industry sites unless necessary. WeddingDay (iOS app) keeps guest data on-device. 
+What if we can't afford a "normal" wedding? Define your own. Courthouse + lunch with parents is a wedding. Backyard with 30 people is a wedding. The wedding doesn't have to look like the magazines. The marriage matters more. 
+Should we register for gifts? Optional. Many couples skip registries entirely; some do "honeymoon funds" via Zola/Honeyfund; some do traditional registries. Communicate via wedding website, not invitations. 
+What about wedding insurance? Worth considering for compressed timelines or large budgets. A few hundred dollars protects against vendor flake, weather cancellation, or sudden illness. 
+How much should we save vs. spend? Don't go into significant debt for a wedding. The marriage starts the day after, and starting marriage with $20K of credit card debt is a worse outcome than a smaller wedding. Save what you can; spend what you have; skip what you can't afford. 
+
+## Get WeddingDay 
+If you want a phone app for the planning side — budget, vendors, guests, timeline — without vendor spam, WeddingDay is $9.99 one-time on the iOS App Store . No subscription. No email harvesting. All on-device. 
+📱 App Store — $9.99 one-time 
+© 2026 Chris Busbin. Educational content. Wedding planning is personal — adjust this guide to your priorities, budget, and family situation. 
+
+Related: Budget calculator · Day-of timeline · 6-month plan · Seating chart guide · Day-of emergency kit · No vendor spam
 
 --------------------------------------------------------------------------------
 
