@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>AI Token — Definition + Why It Affects Cost and Context</title>
+<meta name="description" content="In AI, a token is the basic unit of text a language model processes. One English word averages 1.3 tokens. Token counts determine API costs and context window limits.">
+<link rel="canonical" href="https://chrisbusbin-pixel.github.io/promptforge-support/glossary/ai-token/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI Token — Definition + Why It Affects Cost and Context">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"DefinedTerm","name":"Token (AI / LLM)","description":"In AI, a token is the basic unit of text a language model processes. One English word averages 1.3 tokens. Token counts determine API costs and context window limits.","inDefinedTermSet":"https://chrisbusbin-pixel.github.io/promptforge-support/glossary/","url":"https://chrisbusbin-pixel.github.io/promptforge-support/glossary/ai-token/","author":{"@type":"Person","name":"Chris Busbin","url":"https://github.com/chrisbusbin-pixel"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"AI Token — Definition + Why It Affects Cost and Context","author":{"@type":"Person","name":"Chris Busbin"},"datePublished":"2026-05-08","dateModified":"2026-05-08","mainEntityOfPage":"https://chrisbusbin-pixel.github.io/promptforge-support/glossary/ai-token/","about":{"@type":"DefinedTerm","name":"Token (AI / LLM)"}}
+</script>
+
+<style>*{box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:760px;margin:0 auto;padding:24px;color:#1c1c1e;line-height:1.65}h1{color:#507FB8;font-size:30px;margin-bottom:8px}.dek{font-size:18px;color:#444;margin-bottom:20px}h2{color:#333;margin-top:32px;border-bottom:1px solid #e5e5ea;padding-bottom:6px}.def{background:#f2f2f7;padding:14px;border-radius:10px;margin:14px 0;font-size:16px;border-left:4px solid #507FB8}.def strong{color:#1c1c1e}.app{background:#fdf0d6;padding:14px;border-radius:10px;margin:14px 0;border-left:4px solid #e5a800}.cta{display:inline-block;background:#507FB8;color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600;margin-top:8px;font-size:14px}a{color:#507FB8}.crumb{color:#666;font-size:14px;margin-bottom:12px}.crumb a{color:#507FB8}ul{padding-left:20px}.footer{margin-top:36px;padding-top:18px;border-top:1px solid #e5e5ea;color:#8e8e93;font-size:13px}</style>
+</head>
+<body>
+<p class="crumb"><a href="/promptforge-support/">Home</a> &rsaquo; <a href="/promptforge-support/glossary/">Glossary</a> &rsaquo; Token (AI / LLM)</p>
+
+<h1>Token (AI / LLM)</h1>
+<p class="dek">In AI, a token is the basic unit of text a language model processes. One English word averages 1.3 tokens. Token counts determine API costs and context window limits.</p>
+
+<div class="def">
+<strong>Definition:</strong> In large language model contexts, a token is the basic unit of text the model processes. Tokens are sub-word fragments produced by a tokenizer — common words are usually one token, rare or compound words may be 2-4 tokens. As a rough rule for English: 1 token ≈ 4 characters ≈ 0.75 words. 1,000 tokens ≈ 750 English words.
+</div>
+
+<h2>How it works</h2>
+<p>Tokens are the unit of measurement for two critical LLM constraints: (1) context window — how much text the model can process per request — and (2) API pricing — most LLM APIs charge per million input tokens and per million output tokens. Understanding tokens helps users estimate cost and avoid context window overflow.</p>
+
+<h2>Example</h2>
+<p>The sentence "PromptForge is a $4.99 iOS app" tokenizes to approximately 9 tokens (Prompt-Forge-is-a-$-4-.-99-iOS-app). A 5,000-word document is roughly 6,500-7,000 tokens. A model with a 200,000-token context window can process roughly 150,000 words at once — about a 600-page book.</p>
+
+<h2>Comparison + context</h2>
+<p><strong>Why tokens vs words:</strong> Tokenization is more efficient for the model's neural network than word-based processing because it handles rare/unknown words gracefully. <strong>Tokenization differs by model:</strong> GPT models use OpenAI's tokenizer (tiktoken); Claude uses Anthropic's; Gemini uses Google's. Identical text may produce slightly different token counts on different models.</p>
+
+
+
+<h2>See also</h2>
+<ul><li><a href="/promptforge-support/glossary/context-window/">Context Window</a></li><li><a href="/promptforge-support/glossary/prompt-engineering/">Prompt Engineering</a></li><li><a href="/promptforge-support/ai-subscription-tracker/">AI subscription tracker</a></li></ul>
+
+<div class="footer">© 2026 Chris Busbin. <a href="/promptforge-support/glossary/">Glossary</a> · <a href="/promptforge-support/">Home</a> · <a href="/promptforge-support/apps.html">All apps</a></div>
+</body>
+</html>
